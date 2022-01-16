@@ -1,11 +1,22 @@
 # marbastlib
-A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). It is made in/for KiCAD 5.99 (Nightly version), wo will not work with the KiCAD stable verion until KiCAD 6.0 launches. You can use my (significantly smaller) [legacy lib](https://github.com/ebastler/kicad-keyboard-parts.pretty) for KiCAD 5.x.
+A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). It is made in/for KiCAD 6.0 stable version. KiCAD 5.x is not supported, and KiCAD 6.99 nightly is not tested. You can use my (significantly smaller) [legacy lib](https://github.com/ebastler/kicad-keyboard-parts.pretty) for KiCAD 5.x.
 
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - please place the submodule either directly into your kicad project folder, or one level above. The models will show up correctly in either case.
 
-For now I would recommend using the **UNTESTED** branch, as many footprints are **UNTESTED**, but most of them are almost certain to work. Please double-check the dimensions before ordering, though.
+For now I would recommend using the `untested` branch, as many footprints are untested, but most of them are almost certain to work. Please double-check the dimensions before ordering, though. We will update the `main` branch whenever we prototype new footprints from this lib. To select a specific branch for a submodule, add it as usual with `git submodule add https://github.com/ebastler/marbastlib`, then edit `.gitmodules` to look like this:
 
-We do not assume any responsibility for broken PCBs or damaged derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.
+    [submodule "marbastlib"]
+	    path = marbastlib
+	    url = https://github.com/ebastler/marbastlib
+	    branch = untested
+
+The third line has to be added and will determine the branch your submodule is following. After this, initialize and update it to the latest remote branch with `git submodule update --init --remote`.
+
+### **We do not assume any responsibility for broken PCBs or damaged derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
+
+## Update notes:
+
+Update note (17.01.2022): Flattened the commit history after a cleanup to make the library easier to maintain. This should not have any impact on working with it. Removed the 2x1.6mm crystal footprint as it exists within KiCAD 6 base libs. Changed silkscreen layers for hotswap sockets. Moved MX hotswap footprints and HRO Type-C M-14 from `untested` to `main`, after they were confirmed working on a prototype. Updated the readme to include an explanation how to switch submodule branches.
 
 Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, and the SK6812 MINI-E symbol has been adapted to fit 6028R footprints. The pin numbering between 6028R and SK6812 MINI-E differs, so please take care to only use the updated symbol with these footprints, or your pinout will be wrong. The symbol included in marbastlib-mx will work, together with any of the 6028R footprints.
 
@@ -58,7 +69,6 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * [**UNTESTED**] ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
-* [**UNTESTED**] Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm - footprint for SeikoEpson_FA128 crystals
 * [**UNTESTED**] SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 2-way-switches
 * [**UNTESTED**] joystick_psp1000 - footprint for a PSP-1000 thumbstick
 * [**UNTESTED**] LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
