@@ -45,7 +45,8 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * [**UNTESTED**] SW_choc - solder-footprints for Kailh Choc (v1 only) switches
 * [**UNTESTED**] SW_choc_HS - hotswap-footprints for Kailh Choc (v1 only) switches
-* [**UNTESTED**] STAB_choc - footprint for Kailh Choc 2u stabilizers
+* [**UNTESTED**] STAB_choc_2u - footprint for Kailh Choc 2u stabilizers
+* [**UNTESTED**] STAB_choc_6.25u - footprint for Kailh Choc 6.25u stabilizers
 * [**UNTESTED**] LED_choc_6028R(-FLIPPED) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
 * [*SPECIALTY*] SW_choc_Reversible_1u - reversible footprints for Kailh Choc (v1 only) switches
 * [*SPECIALTY*] SW_choc_MxCombo_1u - combo footprints for Kailh Choc (v1 only) and Cherry MX style switches
@@ -69,7 +70,10 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * [**UNTESTED**] ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
-* [**UNTESTED**] SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 2-way-switches
+* [**UNTESTED**] SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
+* [**UNTESTED**] SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
+* [**UNTESTED**] SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
+* [**UNTESTED**] SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * [**UNTESTED**] joystick_psp1000 - footprint for a PSP-1000 thumbstick
 * [**UNTESTED**] LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * [*SPECIALTY*] LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
@@ -101,6 +105,9 @@ Many of these were provided by someone else. I do not hold any rights for those 
  * HRO TYPE-C-31-M-14([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
  * holyiot 18010 nRF52840 (thanks darryldh)
  * Alps EC11E and EC11N series 3D models ([source](https://tech.alpsalpine.com/e/products/cad.html))
+ * Alps SKHLLCA010 ([source](https://tech.alpsalpine.com/prod/e/html/tact/snapin/skhl/skhllca010_3dcad.html))
+ * Alps SSSS213100 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/ssss213100_3dcad.html))
+ * Alps SSSS223900([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/SSSS223900_3dcad.html))
  * Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-hotswap-mx-1))
  * Kailh Hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
  * PSP-1000 Joystick (thanks [Hendrik](https://github.com/HendrikRoth))
