@@ -16,15 +16,26 @@ The third line has to be added and will determine the branch your submodule is f
 
 ## Update notes:
 
+Update note (04.03.2022): Recreated untested/specialty from main after changes. All SMD parts that had pads on B.Cu were flipped to F.Cu. This will require you to flip them after adding them, but the pick and place assembly files will now list the correct layer for hotswap sockets and revmount LEDs, which were previously designated as "top side" despite being bottom sided. I also added dedicated symbol libs for choc and MX (solder/hotswap 1u switch, stab, SK6812MINI-E, common anode 6028 revmount) with pre-assigned footprints to make placing those parts in large numbers faster. 
+
 Update note (17.01.2022): Flattened the commit history after a cleanup to make the library easier to maintain. This should not have any impact on working with it. Removed the 2x1.6mm crystal footprint as it exists within KiCAD 6 base libs. Changed silkscreen layers for hotswap sockets. Moved MX hotswap footprints and HRO Type-C M-14 from `untested` to `main`, after they were confirmed working on a prototype. Updated the readme to include an explanation how to switch submodule branches.
 
 Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, and the SK6812 MINI-E symbol has been adapted to fit 6028R footprints. The pin numbering between 6028R and SK6812 MINI-E differs, so please take care to only use the updated symbol with these footprints, or your pinout will be wrong. The symbol included in marbastlib-mx will work, together with any of the 6028R footprints.
 
 ## Symbol Libs
 ### marbastlib-mx
-* MX_Stab - a symbol used to place keyboard stabilizers
-* [**UNTESTED**] LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
-* [**UNTESTED**] SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
+* MX_SW_solder - switch symbol with pre-assigned 1u solder footprint
+* MX_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
+* MX_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 6.25u stabilizer.
+* MX_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
+* [**UNTESTED**] MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+
+### marbastlib-choc (untested only)
+* [**UNTESTED**] choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
+* [**UNTESTED**] choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
+* [**UNTESTED**] choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
+* [**UNTESTED**] choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
+* [**UNTESTED**] choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 
 ### marbastlib-various
 * BAV70_Small - a smaller version of the regular BAV70 symbol(easier to use in keyboard matrices)
@@ -36,12 +47,15 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * WS2812B-MINI - symbol with preassigned footprint for WS2812B-MINI
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
+* SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
+* SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
+* [**UNTESTED**] LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 * [**UNTESTED**] STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
 * [**UNTESTED**] IS31FL3741A - a 39x9 LED multiplex driver
 
 ## Footprint libs
-### marbastlib-choc
+### marbastlib-choc (untested only)
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * [**UNTESTED**] SW_choc - solder-footprints for Kailh Choc (v1 only) switches
 * [**UNTESTED**] SW_choc_HS - hotswap-footprints for Kailh Choc (v1 only) switches
@@ -60,7 +74,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * LED_MX_3mm(-FLIPPED) - add-on footprint for Cherry MX switches with 3mm single color LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
 * STAB_MX_P - footprint for Cherry MX PCB-mount stabilizers mit plated screw holes
-* [**UNTESTED**] LED_MX_6028R(-FLIPPED) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
+* LED_MX_6028R(-FLIPPED) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
 * [*SPECIALTY*] SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * [*SPECIALTY*] LED_MX_WS2812_2020-E(-FLIPPED) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * [*SPECIALTY*] PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
@@ -75,7 +89,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * [**UNTESTED**] SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * [**UNTESTED**] SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * [**UNTESTED**] joystick_psp1000 - footprint for a PSP-1000 thumbstick
-* [**UNTESTED**] LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
+* LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * [*SPECIALTY*] LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
 * [**UNTESTED**] QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
