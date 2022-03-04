@@ -80,6 +80,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * [*SPECIALTY*] PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
 
 ### marbastlib-various
+* SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
 * nRF52840_holyiot_18010 - 3 different footprints for the holyiot 18010 nRF52840 BLE module
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
