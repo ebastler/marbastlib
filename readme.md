@@ -49,6 +49,8 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
 * SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
 * SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
+* AVR_TC2030 - symbol for AVR ISP programming connector with pre-assigned TC2030 footprint
+* JTAG_TC2030 - symbol for JTAG programming connector with pre-assigned TC2030 footprint
 * [**UNTESTED**] LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 * [**UNTESTED**] STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
