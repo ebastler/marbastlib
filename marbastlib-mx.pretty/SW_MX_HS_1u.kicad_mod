@@ -47,6 +47,7 @@
   (fp_line (start -7.415 -3.87) (end -7.415 -6.32) (layer "F.CrtYd") (width 0.05) (tstamp c599e18c-eed4-4d0d-9586-ec6808dc3656))
   (fp_line (start 4.085 -6.75) (end -4.815 -6.75) (layer "F.CrtYd") (width 0.05) (tstamp d422a430-b172-45dc-ab96-fd6b6e4575f4))
   (fp_line (start -7.415 -6.32) (end -4.815 -6.32) (layer "F.CrtYd") (width 0.05) (tstamp d6a7b559-fa3d-47aa-b84e-26633fe322db))
+  (fp_line (start 6.085 -3.75) (end 6.085 -4.75) (layer "F.CrtYd") (width 0.05) (tstamp e63e39d7-6ac0-4ffd-8aa3-1841a4541b55))
   (fp_arc (start 4.085 -6.75) (mid 5.499214 -6.164214) (end 6.085 -4.75) (layer "F.CrtYd") (width 0.05) (tstamp 2276bf47-b441-4aa2-ba22-8213875ce0ee))
   (fp_arc (start 0.285 -2.7) (mid 1.700451 -2.116439) (end 2.575 -0.859773) (layer "F.CrtYd") (width 0.05) (tstamp 2fb7c72d-0d63-4df2-879e-15ff023fd1c7))
   (pad "" np_thru_hole circle (at 5.08 0) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp cc9b3f43-dda1-4ddd-b125-29d2dfb90375))
