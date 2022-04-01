@@ -54,8 +54,8 @@
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp ec8122ca-7f62-429e-878f-11558e016561))
   (pad "1" smd rect (at 5.635 -2.54 180) (size 1.65 2.5) (layers "F.Cu") (tstamp e690e57f-f859-4a48-bb06-d239997b1350))
   (pad "1" smd roundrect (at 7.36 -2.54) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp f200f7ff-c180-4b88-af2f-15382c7ef9f8))
-  (pad "1" thru_hole circle (at 3.81 -2.54) (size 3.3 3.3) (drill 3) (layers *.Cu) (tstamp f931232a-e0ed-4928-bd42-952175a01e45))
-  (pad "2" thru_hole circle (at -2.54 -5.08) (size 3.3 3.3) (drill 3) (layers *.Cu) (tstamp 03e21442-98c6-468f-a9bf-67569c56c4d9))
+  (pad "1" thru_hole circle (at 3.81 -2.54) (size 3.3 3.3) (drill 3) (layers *.Cu *.Mask) (tstamp f931232a-e0ed-4928-bd42-952175a01e45))
+  (pad "2" thru_hole circle (at -2.54 -5.08) (size 3.3 3.3) (drill 3) (layers *.Cu *.Mask) (tstamp 03e21442-98c6-468f-a9bf-67569c56c4d9))
   (pad "2" smd roundrect (at -6.09 -5.08) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 1db8ccdb-d377-428b-b096-5e1ee7615369))
   (pad "2" smd rect (at -4.34 -5.08) (size 1.65 2.5) (layers "F.Cu") (tstamp 49f51109-9137-4a03-bf00-7871ed55aa7d))
   (model "${KIPRJMOD}/marbastlib/3d/HS_Kailh_MX.step"
