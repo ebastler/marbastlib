@@ -16,6 +16,8 @@ The third line has to be added and will determine the branch your submodule is f
 
 ## Update notes:
 
+Update note (03.04.2022): Added Hi-Tek 725 series ("Space Invader") and Alps SKCM/CKCL (and Alps/MX combo) footprints. The available footprints were made off official datasheets, but are most likely still missing sizes (stepped caps lock for alps, for example). These will be added later on, should need arise.
+
 Update note (04.03.2022): Recreated untested/specialty from main after changes. All SMD parts that had pads on B.Cu were flipped to F.Cu. This will require you to flip them after adding them, but the pick and place assembly files will now list the correct layer for hotswap sockets and revmount LEDs, which were previously designated as "top side" despite being bottom sided. I also added dedicated symbol libs for choc and MX (solder/hotswap 1u switch, stab, SK6812MINI-E, common anode 6028 revmount) with pre-assigned footprints to make placing those parts in large numbers faster. 
 
 Update note (17.01.2022): Flattened the commit history after a cleanup to make the library easier to maintain. This should not have any impact on working with it. Removed the 2x1.6mm crystal footprint as it exists within KiCAD 6 base libs. Changed silkscreen layers for hotswap sockets. Moved MX hotswap footprints and HRO Type-C M-14 from `untested` to `main`, after they were confirmed working on a prototype. Updated the readme to include an explanation how to switch submodule branches.
@@ -80,6 +82,16 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * [*SPECIALTY*] SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * [*SPECIALTY*] LED_MX_WS2812_2020-E(-FLIPPED) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * [*SPECIALTY*] PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
+
+### marbastlib-hitek
+Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or similarly uncommon shapes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed.
+* [**UNTESTED**] SW_HiTek - solder-footprints for HiTek 725 series switches
+* [**UNTESTED**] SW_HiTek_Mount - solder-footprints for HiTek 725 series switches including drills for the mounting screws for these switches
+
+### marbastlib-alps
+Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or other stabilized sizes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed. Remember to add stabilizers from the MX library for combo footprints, if you plan to use them with MX PCB mount stabilizers as well.
+* [**UNTESTED**] SW_Alps - solder-footprints for Alps SKCM/SKCL series switches
+* [**UNTESTED**] SW_Alps_MX - combined solder-footprints for Alps SKCM/SKCL and Cherry MX series switches
 
 ### marbastlib-various
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
