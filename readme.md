@@ -77,7 +77,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_MX_HS - hotswap-footprints for Cherry MX switches
 * LED_MX_3mm(-FLIPPED) - add-on footprint for Cherry MX switches with 3mm single color LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
-* STAB_MX_P - footprint for Cherry MX PCB-mount stabilizers mit plated screw holes
+* STAB_MX_P - footprint for Cherry MX PCB-mount stabilizers with plated screw holes
 * LED_MX_6028R(-FLIPPED) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
 * [*SPECIALTY*] SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * [*SPECIALTY*] LED_MX_WS2812_2020-E(-FLIPPED) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
