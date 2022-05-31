@@ -15,6 +15,7 @@ The third line has to be added and will determine the branch your submodule is f
 ### **We do not assume any responsibility for broken PCBs or damaged derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes:
+Update note (31.05.2022): Moved LED_6028R symbols and Choc solder and LED footprints, as well as SW_SKHLLCA010, SW_SSSS213100 and SW_SSSS223900 footprints from untested to main after receiving new prototypes.
 
 Update note (03.04.2022): Added Hi-Tek 725 series ("Space Invader") and Alps SKCM/CKCL (and Alps/MX combo) footprints. The available footprints were made off official datasheets, but are most likely still missing sizes (stepped caps lock for alps, for example). These will be added later on, should need arise.
 
@@ -30,14 +31,14 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * MX_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
 * MX_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 6.25u stabilizer.
 * MX_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
-* [**UNTESTED**] MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 
-### marbastlib-choc (untested only)
-* [**UNTESTED**] choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
+### marbastlib-choc
+* choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
 * [**UNTESTED**] choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
 * [**UNTESTED**] choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
-* [**UNTESTED**] choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
-* [**UNTESTED**] choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
+* choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 
 ### marbastlib-various
 * BAV70_Small - a smaller version of the regular BAV70 symbol(easier to use in keyboard matrices)
@@ -53,7 +54,7 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
 * AVR_TC2030 - symbol for AVR ISP programming connector with pre-assigned TC2030 footprint
 * JTAG_TC2030 - symbol for JTAG programming connector with pre-assigned TC2030 footprint
-* [**UNTESTED**] LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 * [**UNTESTED**] STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
 * [**UNTESTED**] IS31FL3741A - a 39x9 LED multiplex driver
@@ -61,11 +62,11 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 ## Footprint libs
 ### marbastlib-choc (untested only)
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
-* [**UNTESTED**] SW_choc - solder-footprints for Kailh Choc (v1 only) switches
+* SW_choc - solder-footprints for Kailh Choc (v1 only) switches
 * [**UNTESTED**] SW_choc_HS - hotswap-footprints for Kailh Choc (v1 only) switches
 * [**UNTESTED**] STAB_choc_2u - footprint for Kailh Choc 2u stabilizers
 * [**UNTESTED**] STAB_choc_6.25u - footprint for Kailh Choc 6.25u stabilizers
-* [**UNTESTED**] LED_choc_6028R(-FLIPPED) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
+* LED_choc_6028R(-FLIPPED) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
 * [*SPECIALTY*] SW_choc_Reversible_1u - reversible footprints for Kailh Choc (v1 only) switches
 * [*SPECIALTY*] SW_choc_MxCombo_1u - combo footprints for Kailh Choc (v1 only) and Cherry MX style switches
 * [*SPECIALTY*] LED_choc_WS2812_2020-E(-FLIPPED) - experimental add-on footprint for Kailh Choc with reverse mounted WS2812_2020 - hand soldering only, use with caution
@@ -100,9 +101,9 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * [**UNTESTED**] ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * [**UNTESTED**] SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
-* [**UNTESTED**] SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
-* [**UNTESTED**] SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
-* [**UNTESTED**] SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
+* SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
+* SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
+* SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * [**UNTESTED**] joystick_psp1000 - footprint for a PSP-1000 thumbstick
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * [*SPECIALTY*] LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
