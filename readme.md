@@ -138,6 +138,6 @@ Many of these were provided by someone else. I do not hold any rights for those 
  * Alps SKHLLCA010 ([source](https://tech.alpsalpine.com/prod/e/html/tact/snapin/skhl/skhllca010_3dcad.html))
  * Alps SSSS213100 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/ssss213100_3dcad.html))
  * Alps SSSS223900([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/SSSS223900_3dcad.html))
- * Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-hotswap-mx-1))
+ * Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
  * Kailh Hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
  * PSP-1000 Joystick (thanks [Hendrik](https://github.com/HendrikRoth))
