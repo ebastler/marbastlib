@@ -58,6 +58,8 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * [**UNTESTED**] STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
 * [**UNTESTED**] IS31FL3741A - a 39x9 LED multiplex driver
+* [**UNTESTED**] MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
+* [**UNTESTED**] nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 
 ## Footprint libs
 ### marbastlib-choc (untested only)
@@ -97,6 +99,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 ### marbastlib-various
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
 * nRF52840_holyiot_18010 - 3 different footprints for the holyiot 18010 nRF52840 BLE module
+* [**UNTESTED**] nRF52840_moko_mk08 - a footprint for the Moko MK08 nRF52840 BLE module
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * [**UNTESTED**] ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
@@ -127,6 +130,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
  * MJ-4PP-9
  * Seiko Epson FA-128
  * MSK12C02-HB
+ * Moko MK08A
  * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
  * Alps SKQG style SMD switch ([source](https://grabcad.com/library/5mm-button-switch-1))
  * 1206 SMD polyfuse ([source](https://grabcad.com/library/0zcj0075af2e-1))
