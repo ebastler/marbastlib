@@ -49,14 +49,14 @@
   (pad "4" smd roundrect (at -2.725 0.75 90) (size 0.82 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (chamfer_ratio 0.5) (chamfer top_left) (tstamp 671ddb5a-7752-422f-b2a4-e1a0fde6e3e7))
   (model "${KIPRJMOD}/../marbastlib/3d/LED_SK6812MINI-E.step"
-    (offset (xyz 0 5.08 0))
+    (offset (xyz 0 5.08 -1.75))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 180 0 180))
   )
   (model "${KIPRJMOD}/marbastlib/3d/LED_SK6812MINI-E.step"
-    (offset (xyz 0 5.08 0))
+    (offset (xyz 0 5.08 -1.75))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 180 0 180))
   )
   (model "${KIPRJMOD}/../3d/LED_SK6812MINI-E.step"
     (offset (xyz 0 5.08 -1.75))
