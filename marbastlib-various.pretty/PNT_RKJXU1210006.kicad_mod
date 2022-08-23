@@ -124,7 +124,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a8b76c3e-bc3c-49b5-ab82-74af646ba01c) (name "ONLY GND") (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -147,17 +147,17 @@
       )
     )
   )
-  (model "${KIPRJMOD}/../marbastlib/3d/RKJXU1210006.step"
+  (model "${KIPRJMOD}/../marbastlib/3d/PNT_RKJXU1210006.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../3d/RKJXU1210006.step"
+  (model "${KIPRJMOD}/../3d/PNT_RKJXU1210006.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/marbastlib/3d/RKJXU1210006.step"
+  (model "${KIPRJMOD}/marbastlib/3d/PNT_RKJXU1210006.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

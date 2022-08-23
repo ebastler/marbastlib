@@ -1,4 +1,5 @@
-(footprint "SW_MSK12C02-HB" (version 20210925) (generator pcbnew) (layer "F.Cu")
+(footprint "SW_MSK12C02-HB" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 61705B25)
   (descr "12V 50mA SMD toggle switch, available at LCSC/JLCPCB (C431541)")
   (tags "switch toggle smd ")
@@ -74,17 +75,17 @@
   (pad "MP" smd roundrect (at 3.7 1.15 270) (size 0.7 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 6acb3fe7-fd5c-420b-bce8-a1391e549d5c))
   (pad "MP" smd roundrect (at -3.7 1.15 270) (size 0.7 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 86faca91-43ac-49b5-bf41-2a6d26ff271f))
   (pad "MP" smd roundrect (at 3.7 -1.15 270) (size 0.7 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp a082467d-9de5-4a86-8ba6-4d226eb00a24))
-  (model "${KIPRJMOD}/../marbastlib/3d/Switch_MSK12C02.step"
+  (model "${KIPRJMOD}/../marbastlib/3d/SW_MSK12C02.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/marbastlib/3d/Switch_MSK12C02.step"
+  (model "${KIPRJMOD}/marbastlib/3d/SW_MSK12C02.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../3d/Switch_MSK12C02.step"
+  (model "${KIPRJMOD}/../3d/SW_MSK12C02.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
