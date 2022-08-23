@@ -15,7 +15,7 @@ The third line has to be added and will determine the branch your submodule is f
 ### **We do not assume any responsibility for broken PCBs or damaged derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes:
-Update note (23.08.2022): Added Alps RKJXU1210006 (PSP-3000) thumbstick footprint/3D model, added Hirose FH33 series FFC/FPC connectors, added footprint for Alps SKQG type switches with pre-assigned 3d model, and made some general changes to get footprint and 3D model names more coherent. Moved nRF52840_moko_mk08 and MAX17048 from `untested` to `main` after receiving new prototypes. MX hotswap sockets received a new 3d model that is closer to the actual shape and new silkscreen outlines that have been confirmed to be more accurate in a minor not listed update since the last one. Exposed copper rings on choc HS footprints (assembly side only) to be in line with their MX counterparts, after some manufacturers complained about these footprints.
+Update note (23.08.2022): Added Alps RKJXU1210006 (PSP-3000) thumbstick footprint/3D model, added Hirose FH33 series FFC/FPC connectors, added footprint for Alps SKQG type switches with pre-assigned 3d model, and made some general changes to get footprint and 3D model names more coherent. Moved nRF52840_moko_mk08 and MAX17048 from `untested` to `main` after receiving new prototypes. MX hotswap sockets received a new 3d model that is closer to the actual shape and new silkscreen outlines that have been confirmed to be more accurate in a minor not listed update since the last one. Exposed copper rings on choc HS footprints (assembly side only) to be in line with their MX counterparts, after some manufacturers complained about these footprints. From now on all symbols are marked as tested and present in any lib, only footprints may not be.
 
 Update note (31.05.2022): Moved LED_6028R symbols and Choc solder and LED footprints, as well as SW_SKHLLCA010, SW_SSSS213100 and SW_SSSS223900 footprints from `untested` to `main` after receiving new prototypes.
 
@@ -37,8 +37,8 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 
 ### marbastlib-choc
 * choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
-* [**UNTESTED**] choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
-* [**UNTESTED**] choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
+* choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
+* choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
 * choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
 * choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 
@@ -57,9 +57,9 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * AVR_TC2030 - symbol for AVR ISP programming connector with pre-assigned TC2030 footprint
 * JTAG_TC2030 - symbol for JTAG programming connector with pre-assigned TC2030 footprint
 * LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
-* [**UNTESTED**] STM32WB5MMG - a small form factor package including STM32WB chip and antenna
-* [**UNTESTED**] MAX77751 - a 1S LiIon battery management chip
-* [**UNTESTED**] IS31FL3741A - a 39x9 LED multiplex driver
+* STM32WB5MMG - a small form factor package including STM32WB chip and antenna
+* MAX77751 - a 1S LiIon battery management chip
+* IS31FL3741A - a 39x9 LED multiplex driver
 * MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 
