@@ -2,4 +2,6 @@
   (lib (name "marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/../marbastlib-choc.pretty")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/../marbastlib-mx.pretty")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/../marbastlib-various.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-hitek")(type "KiCad")(uri "${KIPRJMOD}/../marbastlib-hitek.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-alps")(type "KiCad")(uri "${KIPRJMOD}/../marbastlib-alps.pretty")(options "")(descr ""))
 )
