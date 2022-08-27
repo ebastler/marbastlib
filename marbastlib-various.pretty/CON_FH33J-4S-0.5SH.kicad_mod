@@ -36,4 +36,19 @@
   (pad "4" smd roundrect (at 1.5 0) (size 0.3 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 286d0704-d68e-4c24-ace8-75a7a8120a55))
   (pad "MP" smd roundrect (at -0.925 2.075) (size 0.55 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a4a242c2-f7d4-48ca-966a-3f44d5e21a1b))
   (pad "MP" smd roundrect (at 2.425 2.075) (size 0.55 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b06ad6f5-fb47-47ab-99f7-b9d6101edf2f))
+  (model "${KIPRJMOD}/../3d/CON_FH33-4S-0.5SH.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/marbastlib/3d/CON_FH33-4S-0.5SH.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/../marbastlib/3d/CON_FH33-4S-0.5SH.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
