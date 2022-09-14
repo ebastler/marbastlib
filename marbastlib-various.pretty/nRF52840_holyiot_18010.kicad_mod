@@ -1,4 +1,5 @@
-(footprint "nRF52840_holyiot_18010" (version 20210925) (generator pcbnew) (layer "F.Cu")
+(footprint "nRF52840_holyiot_18010" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 61704FF2)
   (descr "Module containing a nRF52840 and most passives and antenna")
   (tags "holyiot 18010 bluetooth low energy ")
@@ -93,6 +94,11 @@
     (rotate (xyz -90 0 0))
   )
   (model "${KIPRJMOD}/marbastlib/3d/holyiot_18010_nRF52840.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ":models:holyiot_18010_nRF52840.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
