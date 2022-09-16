@@ -110,6 +110,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * SW_SPST_SKQG_WithStem - copy of the default kicad lib's SKQG footprint, but with rounded pads and pre-assigned 3d model
+* ROT_Alps_EC11E-Switch - Improved version of the original kicad EC11E footprint with pre-assigned 3d model
 * [**UNTESTED**] PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * [**UNTESTED**] PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
