@@ -15,6 +15,8 @@ The third line has to be added and will determine the branch your submodule is f
 ### **We do not assume any responsibility for broken PCBs or damaged derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes:
+Update note (27.10.2022): Osprey prototypes arrived - this means, choc hotswap footprints, as well as Hirose FH33 are now tested, and I added symbol + 3D model for JST ACH 2pin low profile connectors.
+
 Update note (23.08.2022): Added Alps RKJXU1210006 (PSP-3000) thumbstick footprint/3D model, added Hirose FH33 series FFC/FPC connectors, added footprint for Alps SKQG type switches with pre-assigned 3d model, and made some general changes to get footprint and 3D model names more coherent. Moved nRF52840_moko_mk08 and MAX17048 from `untested` to `main` after receiving new prototypes. MX hotswap sockets received a new 3d model that is closer to the actual shape and new silkscreen outlines that have been confirmed to be more accurate in a minor not listed update since the last one. Exposed copper rings on choc HS footprints (assembly side only) to be in line with their MX counterparts, after some manufacturers complained about these footprints. From now on all symbols are marked as tested and present in any lib, only footprints may not be.
 
 Update note (31.05.2022): Moved LED_6028R symbols and Choc solder and LED footprints, as well as SW_SKHLLCA010, SW_SSSS213100 and SW_SSSS223900 footprints from `untested` to `main` after receiving new prototypes.
@@ -67,7 +69,7 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 ### marbastlib-choc (untested only)
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_choc - solder-footprints for Kailh Choc (v1 only) switches
-* [**UNTESTED**] SW_choc_HS - hotswap-footprints for Kailh Choc (v1 only) switches
+* SW_choc_HS - hotswap-footprints for Kailh Choc (v1 only) switches
 * [**UNTESTED**] STAB_choc_2u - footprint for Kailh Choc 2u stabilizers
 * [**UNTESTED**] STAB_choc_6.25u - footprint for Kailh Choc 6.25u stabilizers
 * LED_choc_6028R(-FLIPPED) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E RGB LEDs
@@ -105,7 +107,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * [**UNTESTED**] ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
-* [**UNTESTED**] SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
+* SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
 * SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
 * SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
@@ -126,9 +128,10 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ProMicroReversible - reversible footprint for an Arduino Pro Micro (or other compatible MCU breakout board)
 * SplitkbTentingPuck - footprint for a splitkb Tenting Puck
 * SW_kailh_big_1u - footprint for a Kailh x Novelkeys Big Switch
-* [**UNTESTED**] CON_FH33J-4S-0.5SH - 4pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
-* [**UNTESTED**] CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
-* [**UNTESTED**] CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
+* CON_FH33J-4S-0.5SH - 4pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
+* CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
+* CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
+* CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery. Copy of the default kicad lib's ACH footprint with pre-assigned 3d model
 
 ## 3D Models
 Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
@@ -139,6 +142,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
  * Seiko Epson FA-128
  * MSK12C02-HB
  * Moko MK08A
+ * JST BM02B-ACHSS (source: JST)
  * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
  * Alps SKQG style SMD switch ([source](https://grabcad.com/library/5mm-button-switch-1))
  * 1206 SMD polyfuse ([source](https://grabcad.com/library/0zcj0075af2e-1))
