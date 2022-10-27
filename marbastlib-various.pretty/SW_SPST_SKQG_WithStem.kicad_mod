@@ -93,19 +93,9 @@
       )
     )
   )
-  (model "${KIPRJMOD}/../3d/SW_SKQG.step"
+  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model "${KIPRJMOD}/marbastlib/3d/SW_SKQG.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model "${KIPRJMOD}/../marbastlib/3d/SW_SKQG.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
