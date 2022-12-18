@@ -32,6 +32,7 @@ Update note (11.12.2021): Dedicated SK6812 MINI-E footprints have been removed, 
 * MX_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 6.25u stabilizer.
 * MX_SK6812MINI-E - symbol with preassigned footprint for reverse mount adressable SK6812MINI-E RGB LEDs
 * MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* MX_SW_ULP - symbol for the MX ultra low profile switch including a pin for the mounting pads
 
 ### marbastlib-choc
 * choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
@@ -83,6 +84,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * [*SPECIALTY*] SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * [*SPECIALTY*] LED_MX_WS2812_2020-E(-FLIPPED) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * [*SPECIALTY*] PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
+* [*SPECIALTY*] SW_MX_ULP_1c - footprint for the MX ultra low profile switch by cherry
 
 ### marbastlib-hitek
 Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or similarly uncommon shapes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed.
