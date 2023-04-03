@@ -1,0 +1,18 @@
+(footprint "mousebites_1mm" (version 20210623) (generator pcbnew) (layer "F.Cu")
+  (tedit 61013ECB)
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at -4 -2.75) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8d32cf2f-3bad-4896-b542-c08c485f0e54)
+  )
+  (fp_text value "mousebites 1mm" (at 0.25 -1.5) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2de27b07-96ec-4818-bd25-f3a48a67e287)
+  )
+  (fp_arc (start -0.5 2.75) (end 0 2.75) (angle -180) (layer "Edge.Cuts") (width 0.05) (tstamp acc9274b-2057-46a0-8db8-3bc988254186))
+  (fp_arc (start -0.5 -2.75) (end -1 -2.75) (angle -180) (layer "Edge.Cuts") (width 0.05) (tstamp e318b9a5-31af-498e-9776-29da0c24799d))
+  (pad "" np_thru_hole circle (at 0.25 0.635) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp 6bae358a-ce6d-416a-9c19-f3f3b25b9164))
+  (pad "" np_thru_hole circle (at 0.25 -1.905) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp 6db0cbd1-1f83-4241-a493-d70656eed587))
+  (pad "" np_thru_hole circle (at 0.25 1.905) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp 8e9677cd-33bc-4f4a-b0be-5c8fcac671a2))
+  (pad "" np_thru_hole circle (at 0.25 -0.635) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp ebb34a27-05cb-49c9-94ae-ec0637dfddb0))
+)

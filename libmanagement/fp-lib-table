@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WIP_marbastlib-alps")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-alps.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-xp-alps")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-alps.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-choc.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-xp-choc")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-choc.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-hitek")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-hitek.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-xp-hitek")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-hitek.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-xp-mx")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-mx.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-various.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-xp-various")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-various.pretty")(options "")(descr ""))
+)

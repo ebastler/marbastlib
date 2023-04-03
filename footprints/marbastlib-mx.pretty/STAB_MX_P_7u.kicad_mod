@@ -1,0 +1,69 @@
+(footprint "STAB_MX_P_7u" (version 20210623) (generator pcbnew) (layer "F.Cu")
+  (tedit 61013AAA)
+  (descr "Footprint for Cherry Clip/Screw in type stabilizers, 7u")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b528ff6d-616c-416c-bb82-951c7e583547)
+  )
+  (fp_text value "STAB_MX_P_7u" (at 0 8.128) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f895770f-36e4-4a29-869e-b374f2f122ee)
+  )
+  (fp_line (start 7 7) (end 7 5) (layer "Dwgs.User") (width 0.12) (tstamp 0cc30338-c81b-45a1-876b-0e99f2401399))
+  (fp_line (start -66.675 9.525) (end 66.675 9.525) (layer "Dwgs.User") (width 0.12) (tstamp 0e3fee5c-4af8-4fc6-a4e7-c295c3abe13b))
+  (fp_line (start 5 -7) (end 7 -7) (layer "Dwgs.User") (width 0.12) (tstamp 19a20644-30b9-4083-941f-db5ae9076067))
+  (fp_line (start -66.675 -9.525) (end 66.675 -9.525) (layer "Dwgs.User") (width 0.12) (tstamp 36a7a8c4-35c4-4730-9e33-9afd397f4ebc))
+  (fp_line (start -7 -5) (end -7 -7) (layer "Dwgs.User") (width 0.12) (tstamp 826610d3-bf97-4742-8374-ef3576b9ac3d))
+  (fp_line (start -7 7) (end -7 5) (layer "Dwgs.User") (width 0.12) (tstamp 8b81c4f9-6b26-4630-bbba-33989411196f))
+  (fp_line (start -5 7) (end -7 7) (layer "Dwgs.User") (width 0.12) (tstamp 941c0095-b136-4e1a-ab73-2abbeb64a646))
+  (fp_line (start 7 -7) (end 7 -5) (layer "Dwgs.User") (width 0.12) (tstamp 94e46d93-cd55-47a4-803d-c592b588a866))
+  (fp_line (start -7 -7) (end -5 -7) (layer "Dwgs.User") (width 0.12) (tstamp 9aba5c6c-24a5-4e7a-ad1b-18454522d10c))
+  (fp_line (start -66.675 -9.525) (end -66.675 9.525) (layer "Dwgs.User") (width 0.12) (tstamp 9b1d2052-fdbf-4b0b-852d-e9904767f653))
+  (fp_line (start 5 7) (end 7 7) (layer "Dwgs.User") (width 0.12) (tstamp d1b909c1-e60e-4228-a4bc-ac682ecfd896))
+  (fp_line (start 66.675 -9.525) (end 66.675 9.525) (layer "Dwgs.User") (width 0.12) (tstamp e6c042d2-55e4-4d33-8415-d76f78ee773e))
+  (fp_line (start -60.025 -5.999999) (end -54.275 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 3ef2b45f-de6e-4b06-b640-427e0f857da8))
+  (fp_line (start -53.775 -5.499999) (end -53.775 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 49d891f3-337a-4856-b880-81e695fafbf7))
+  (fp_line (start 54.275 8.000001) (end 60.025 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 5b784724-fe10-4a3d-aa6a-4be2b6b2a5cc))
+  (fp_line (start -60.525 -5.499999) (end -60.525 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 7b7e87b0-ebc9-4ef3-8682-84ba20d3643a))
+  (fp_line (start 54.275 -5.999999) (end 60.023789 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 8c685be9-ce80-4ed5-91ad-5300063ab144))
+  (fp_line (start 53.775 -5.499999) (end 53.775 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 956e11be-5ef0-456a-a35e-522c92717089))
+  (fp_line (start -60.025 8.000001) (end -54.275 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 9b359e4b-08cd-4e5b-a129-b76f216904b7))
+  (fp_line (start 60.523789 -5.499999) (end 60.525 7.500001) (layer "Eco2.User") (width 0.05) (tstamp eab55b72-9673-4f9a-9964-6af7a259322d))
+  (fp_arc (start -60.025 7.500001) (end -60.525 7.500001) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp 111849fb-bd7c-4925-bffb-1a533bb90e1c))
+  (fp_arc (start 54.275 7.500001) (end 53.775 7.500001) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp 18b82e47-8e6d-49e4-8a65-faca3ebf864d))
+  (fp_arc (start -54.275 -5.499999) (end -53.775 -5.499999) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp 657fe2d5-ec9d-4aa1-a817-808f9b0316bf))
+  (fp_arc (start 54.275 -5.499999) (end 54.275 -5.999999) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp 6e2e4c31-5a57-48af-922c-1cf75609b4bb))
+  (fp_arc (start -60.025 -5.499999) (end -60.025 -5.999999) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp 6e9d2164-b0a2-41ea-97cc-b02cf1e2f5ee))
+  (fp_arc (start 60.023789 -5.499999) (end 60.523789 -5.499999) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp b34d4a68-b3c9-4c48-bce1-5e88fab70851))
+  (fp_arc (start 60.025 7.500001) (end 60.025 8.000001) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp c74db3d7-516e-4f90-9c63-74b15e23cf31))
+  (fp_arc (start -54.275 7.500001) (end -54.275 8.000001) (angle -90) (layer "Eco2.User") (width 0.05) (tstamp cc17c865-f5b3-42b5-9818-608e3d7ec43e))
+  (pad "" thru_hole circle (at 57.15 -6.985) (size 4 4) (drill 3.048) (layers *.Cu "B.Mask") (tstamp 3d2b5880-f767-428f-9b7e-625a533e00cd))
+  (pad "" thru_hole circle (at -57.15 -6.985) (size 4 4) (drill 3.048) (layers *.Cu "B.Mask") (tstamp 46ddd623-d645-419d-8365-af89353085f0))
+  (pad "" np_thru_hole circle (at 57.15 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp 79e53aa3-387a-4811-bb49-1b522fb13668))
+  (pad "" np_thru_hole circle (at -57.15 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp c7513442-af16-42cb-adbc-19f36904f27d))
+  (group "" (id 0b28908a-dd1b-4690-9980-941240d5a93a)
+    (members
+      111849fb-bd7c-4925-bffb-1a533bb90e1c
+      3ef2b45f-de6e-4b06-b640-427e0f857da8
+      49d891f3-337a-4856-b880-81e695fafbf7
+      657fe2d5-ec9d-4aa1-a817-808f9b0316bf
+      6e9d2164-b0a2-41ea-97cc-b02cf1e2f5ee
+      7b7e87b0-ebc9-4ef3-8682-84ba20d3643a
+      9b359e4b-08cd-4e5b-a129-b76f216904b7
+      cc17c865-f5b3-42b5-9818-608e3d7ec43e
+    )
+  )
+  (group "" (id e4bd9659-f5bc-4b20-85b7-f7235a42de69)
+    (members
+      18b82e47-8e6d-49e4-8a65-faca3ebf864d
+      5b784724-fe10-4a3d-aa6a-4be2b6b2a5cc
+      6e2e4c31-5a57-48af-922c-1cf75609b4bb
+      8c685be9-ce80-4ed5-91ad-5300063ab144
+      956e11be-5ef0-456a-a35e-522c92717089
+      b34d4a68-b3c9-4c48-bce1-5e88fab70851
+      c74db3d7-516e-4f90-9c63-74b15e23cf31
+      eab55b72-9673-4f9a-9964-6af7a259322d
+    )
+  )
+)
