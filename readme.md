@@ -9,6 +9,8 @@ Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) a
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes
+Update note (19.4.2023): Fixed wrong footprint names in choc symbol (see [issue #6](https://github.com/ebastler/marbastlib/issues/6)). Added MX plate footprint experimental library. Please take care before using them and double-check dimensions, also make sure stab rotation is correct.
+
 Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols and footprints, many smaller changes. Changelog emptied since this version stands separate from the older releases.
 
 ## Symbol Libs
@@ -142,6 +144,12 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
 * nRF52840_holyiot_18010_HS_all - a footprint for the holyiot 18010 nRF52840 BLE module intended to allow hand soldering from the rear (milled slot on bottom of module to access bottom pads)
 * nRF52840_moko_mk08_HS - a footprint for the Moko MK08 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
+
+### marbastlib-xp-plate-mx
+* Plate_MX - footprints to make FR4 plates, just bare milled slots
+* Plate-M_MX - footprints to make FR4 plates, milled slots with 0.55 mm mask openings around them. May need some explaining for the PCB fab.
+* Plate-MP_MX - footprints to make FR4 plates, milled slots with 0.5 mm copper rings around them. May need some explaining for the PCB fab.
+
 
 ## 3D Models
 Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
