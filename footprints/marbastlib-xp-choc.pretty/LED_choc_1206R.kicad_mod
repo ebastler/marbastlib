@@ -3,8 +3,8 @@
   (descr "Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED")
   (tags "kailh choc 1206 rearmount rear mount led rgb backlight ")
   (attr smd)
-  (fp_text reference "REF**" (at -2.2 -2 -180) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (fp_text reference "REF**" (at 0 -2 180) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c13c340-5506-47b0-bd88-0ff788695ebb)
   )
   (fp_text value "LED_choc_1206R" (at -9.425 3.85) (layer "F.Fab") hide

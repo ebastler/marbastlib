@@ -3,8 +3,8 @@
   (descr "Add-on for regular choc-footprints with 6028 reverse mount LED")
   (tags "kailh choc 6028 rearmount rear mount led rgb backlight")
   (attr smd)
-  (fp_text reference "REF**" (at -4 -2.85 -180) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (fp_text reference "REF**" (at 0 -2.6 180) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5a1a50d4-cea3-4854-aca7-39c8d37358dc)
   )
   (fp_text value "LED_choc_6028R-F" (at -9.425 3.85) (layer "F.Fab") hide

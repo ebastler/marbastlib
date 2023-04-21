@@ -3,8 +3,8 @@
   (descr "Add-on for regular MX-footprints with 6028 reverse mount LED")
   (tags "cherry MX 6028 rearmount rear mount led rgb backlight")
   (attr smd)
-  (fp_text reference "REF**" (at 3.8 0) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (fp_text reference "REF**" (at 0 2.6) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2afe8193-f69a-4c64-8bf9-16b1c4f2dc24)
   )
   (fp_text value "LED_MX_6028R-ROT" (at -9.4 3.45) (layer "F.Fab") hide
