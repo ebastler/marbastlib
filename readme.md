@@ -9,6 +9,8 @@ Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) a
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes
+Update note (17.05.2023): Added Skyloon hotswap Encoder from #7 - thank you very much, hlord2000!
+
 Update note (19.4.2023): Fixed wrong footprint names in choc symbol (see [issue #6](https://github.com/ebastler/marbastlib/issues/6)). Added MX plate footprint experimental library. Please take care before using them and double-check dimensions, also make sure stab rotation is correct.
 
 Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols and footprints, many smaller changes. Changelog emptied since this version stands separate from the older releases.
@@ -50,6 +52,7 @@ Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols
 * TP4056 - a cheap and easily available 1S battery charging chip
 * TXB0101 - a bidirectional levelshifter
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
+* ROT_SKYLOON_HS-Swicth - symbol for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule)
 
 ## Footprint libs
 Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` were separate libraries, now all footprints were merged into a single repository, but separate libraries. `marbastlib-choc` (to pick one example) is the new equivalent to `main`/`stable`, while `marbastlib-xp-choc` ("xp" stands for "experimental", but also makes sure the xp libs end up on the bottom of the list) join `specialty` and `untested` into one library. Please use anything in a "xp" library with special care, and report back to us once a footprint in such a lib has been successfully tested, so it can be moved into the regular libs.
@@ -115,6 +118,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ProMicroReversible - reversible footprint for an Arduino Pro Micro (or other compatible MCU breakout board)
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCAD EC11E footprint with pre-assigned 3d model
+* ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
@@ -164,16 +168,17 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Moko MK08A nRF52840 module
 * JST BM02B-ACHSS (source: JST)
 * HytePro M411P connector
+* Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
-* holyiot 18010 nRF52840 module (thanks darryldh)
+* holyiot 18010 nRF52840 module (thanks, darryldh!)
 * Alps EC11E and EC11N series 3D models ([source](https://tech.alpsalpine.com/e/products/cad.html))
 * Alps SKHLLCA010 ([source](https://tech.alpsalpine.com/prod/e/html/tact/snapin/skhl/skhllca010_3dcad.html))
 * Alps SSSS213100 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/ssss213100_3dcad.html))
 * Alps SSSS223900 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/SSSS223900_3dcad.html))
 * Alps RKJXU1210006 Thumbstick ([source](https://tech.alpsalpine.com/e/products/detail/RKJXU1210006/))
-* PSP-1000 Thumbstick (thanks [Hendrik](https://github.com/HendrikRoth))
+* PSP-1000 Thumbstick (thanks [thanks, Hendrik!](https://github.com/HendrikRoth))
 * Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
 * Kailh Hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
