@@ -6,7 +6,9 @@ We try to offer 3D models for as many footprints in this library as possible, cr
 ## How to install
 Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) and click on "Manage". Add a new entry with the plus sign and paste 
 
-```https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/repository.json```
+```
+https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/repository.json
+```
 
 From this point on you will have "ebastler KiCAD repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
 
