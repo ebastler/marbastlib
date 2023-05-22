@@ -4,7 +4,13 @@ A library collecting MX and Choc style footprints, as well as various other part
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - the PCM version will automatically download everything in the right file paths.
 
 ## How to install
-Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) and click on "Manage". Add a new entry with the plus sign and paste `https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/repository.json`. From this point on you will have "ebastler KiCAD repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
+Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) and click on "Manage". Add a new entry with the plus sign and paste 
+
+```
+https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/repository.json
+```
+
+From this point on you will have "ebastler KiCAD repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
 
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
