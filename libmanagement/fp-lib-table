@@ -11,4 +11,5 @@
   (lib (name "WIP_marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "WIP_marbastlib-xp-various")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-various.pretty")(options "")(descr ""))
   (lib (name "WIP_marbastlib-xp-plate-mx")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-plate-mx.pretty")(options "")(descr ""))
+  (lib (name "WIP_marbastlib--xp-promicroish")(type "KiCad")(uri "${KIPRJMOD}/../footprints/marbastlib-xp-promicroish.pretty")(options "")(descr ""))
 )

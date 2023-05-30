@@ -60,6 +60,14 @@ Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
 * ROT_SKYLOON_HS-Swicth - symbol for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule)
 
+### marbastlib-promicroish
+* Arduino_ProMicro - symbol for Arduino Pro Micro controller
+* Elite-C - symbol for Elite-C controller
+* Helios - symbol for 0xCB Helios controller
+* Pluto - symbol for 0xCB Pluto controller
+* Liatris - symbol for Splitkb Liatris controller
+* nice_nano - symbol for nicekeyboards nice!nano Bluetooth controller
+
 ## Footprint libs
 Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` were separate libraries, now all footprints were merged into a single repository, but separate libraries. `marbastlib-choc` (to pick one example) is the new equivalent to `main`/`stable`, while `marbastlib-xp-choc` ("xp" stands for "experimental", but also makes sure the xp libs end up on the bottom of the list) join `specialty` and `untested` into one library. Please use anything in a "xp" library with special care, and report back to us once a footprint in such a lib has been successfully tested, so it can be moved into the regular libs.
 
@@ -120,8 +128,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
-* ProMicro - footprint for an Arduino Pro Micro (or other compatible MCU breakout board)
-* ProMicroReversible - reversible footprint for an Arduino Pro Micro (or other compatible MCU breakout board)
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCAD EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
@@ -160,6 +166,16 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * Plate-M_MX - footprints to make FR4 plates, milled slots with 0.55 mm mask openings around them. May need some explaining for the PCB fab.
 * Plate-MP_MX - footprints to make FR4 plates, milled slots with 0.5 mm copper rings around them. May need some explaining for the PCB fab.
 
+### marbastlib-xp-promicroish
+These footprints use some (rather cryptic) naming schemes to differentiate various sub-models with small differences. Here's the naming scheme. `A`: for controllers with more (optional) pins than Pro Micro, all have been used. `C`: for controllers with castellated pads, these footprints support castellated. `H`: these footprints offer through-hole pads. `USBup`: these footprints are designed to be used with the USB port facing away from the PCB. `USBdown`: these footprints are designed to be used with the USB port sandwiched between controller and PCB. `Reversible`: These footprints have mask openings and alignment helps on both sides of the PCB.
+
+* ProMicro - Footprints for Arduino Pro Micro controller
+* Elite-C - footprints for Elite-C controller
+* Helios - footprints for 0xCB Helios controller
+* Pluto - footprints for 0xCB Pluto controller
+* Liatris - footprints for Splitkb Liatris controller
+* nice_nano - footprints for nicekeyboards nice!nano Bluetooth controller
+
 
 ## 3D Models
 Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
@@ -174,6 +190,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Moko MK08A nRF52840 module
 * JST BM02B-ACHSS (source: JST)
 * HytePro M411P connector
+* Liatris
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
