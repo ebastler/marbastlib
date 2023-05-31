@@ -42,6 +42,8 @@ Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols
 * BAV70_Small - a smaller version of the regular BAV70 symbol (easier to use in keyboard matrices)
 * DW01A - a cheap and easily available 1S battery protection chip
 * FS8205 - a dual MOSFET used in the DW01A ref implementation
+* FE1.1 - a 4 port USB 2.0 High-Speed (480 Mbit/s) hub with multiple transaction translator
+* FUSB303B - a standalone USB Type-C dual role port controller with I2C and GPIO control
 * IS31FL3741A - a 39x9 LED multiplex driver
 * joystick_analog - symbol for a analog, dual pot thumbstick, comes pre-assigned with a PSP-1000 thumbstick footprint
 * LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
