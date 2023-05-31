@@ -15,6 +15,8 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
 ## Update notes
+Update note (31.05.2023): Added a bunch of pro micro compatible boards ("promicroish" libs) and FUSB303B.
+
 Update note (17.05.2023): Added Skyloon hotswap Encoder from #7 - thank you very much, hlord2000!
 
 Update note (19.4.2023): Fixed wrong footprint names in choc symbol (see [issue #6](https://github.com/ebastler/marbastlib/issues/6)). Added MX plate footprint experimental library. Please take care before using them and double-check dimensions, also make sure stab rotation is correct.
