@@ -273,7 +273,7 @@
     (property "Reference" "U" (at -7.62 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Pluto" (at -7.62 20.32 0)
+    (property "Value" "Helios" (at -7.62 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_AH_USBup" (at 0 -24.13 0)
