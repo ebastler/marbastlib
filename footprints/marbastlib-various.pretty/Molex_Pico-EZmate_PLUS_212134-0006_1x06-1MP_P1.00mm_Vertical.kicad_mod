@@ -1,6 +1,6 @@
 (footprint "Molex_Pico-EZmate_PLUS_212134-0006_1x06-1MP_P1.00mm_Vertical" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Molex Pico-EZmate series connector, 78171-0002 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator")
+  (descr "Molex Pico-EZmate series connector, 212134-0006 (http://www.molex.com/pdm_docs/sd/2121340006_sd.pdf)")
   (tags "connector Molex Pico-EZmate side entry")
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.2) (layer "F.SilkS")
