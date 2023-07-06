@@ -12,16 +12,10 @@ https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/reposi
 
 From this point on you will have "ebastler KiCAD repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
 
+![repolist](resources/repolist.png)
+
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
 
-## Update notes
-Update note (31.05.2023): Added a bunch of pro micro compatible boards ("promicroish" libs) and FUSB303B.
-
-Update note (17.05.2023): Added Skyloon hotswap Encoder from #7 - thank you very much, hlord2000!
-
-Update note (19.4.2023): Fixed wrong footprint names in choc symbol (see [issue #6](https://github.com/ebastler/marbastlib/issues/6)). Added MX plate footprint experimental library. Please take care before using them and double-check dimensions, also make sure stab rotation is correct.
-
-Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols and footprints, many smaller changes. Changelog emptied since this version stands separate from the older releases.
 
 ## Symbol Libs
 ### marbastlib-mx
@@ -62,6 +56,7 @@ Update note (4.4.2023): KiCAD 7.0 PCM version launched, lots of improved symbols
 * TP4056 - a cheap and easily available 1S battery charging chip
 * TXB0101 - a bidirectional levelshifter
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
+* WS2812_4020 - symbol with preassigned footprint for WS2812B-4020 side-firing LED
 * ROT_SKYLOON_HS-Swicth - symbol for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule)
 
 ### marbastlib-promicroish
@@ -124,6 +119,8 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SW_Alps_MX - combined solder-footprints for Alps SKCM/SKCL and Cherry MX series switches
 
 ### marbastlib-various
+* Molex_Pico-EZmate_78171* - footprints for Molex Pico EZmate series with preassigned 3d models
+* Molex_Pico-EZmate_PLUS_212134* - footprints for Molex Pico EZmate PLUS series with preassigned 3d models
 * CON_FH33J-4S-0.5SH - 4pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
@@ -157,6 +154,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
+* LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
 * PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
@@ -209,3 +207,5 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * PSP-1000 Thumbstick (thanks [thanks, Hendrik!](https://github.com/HendrikRoth))
 * Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
 * Kailh Hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
+* Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
+* Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
