@@ -141,7 +141,8 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * SW_kailh_big_1u - footprint for a Kailh x Novelkeys Big Switch
 * SplitkbTentingPuck - footprint for a splitkb Tenting Puck
-* USB_C_Receptacle_HRO_TYPE-C-31-M-14 - footprint for a HRO Koreaparts mid-mount USB-C 2.0 receptacle
+* USB_C_Receptacle_HRO_TYPE-C-31-M-14 - footprint for a HRO Koreaparts M-14 mid-mount USB-C 2.0 receptacle
+* USB_C_Receptacle_HRO_TYPE-C-31-M-12 - footprint for a HRO Koreaparts M-12 USB-C 2.0 receptacle (copy of KiCad default footprint with preassigned 3d model and some minor changes to silkscreen)
 * mousebites - various sizes of mousebites
 * mousebites_5p5mm_easysnap - special mousebites designed for easy tool-less depanelizing
 * nRF52840_holyiot_18010 - a footprint for the holyiot 18010 nRF52840 BLE module
