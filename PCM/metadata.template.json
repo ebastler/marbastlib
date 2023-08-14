@@ -8,16 +8,16 @@
     "author": {
         "name": "ebastler and MarvFPV",
         "contact": {
-            "discord": "https://discord.gg/UEhmQbQw",
+            "discord": "https://discord.gg/UEhmQbQw"
         }
     },
     "maintainer": {
         "name": "ebastler and MarvFPV",
         "contact": {
-            "discord": "https://discord.gg/UEhmQbQw",
+            "discord": "https://discord.gg/UEhmQbQw"
         }
     },
-    "license": "CERN-OHL-P-2.0",
+    "license": "CERN-OHL",
     "resources": {
         "homepage": "https://github.com/ebastler/marbastlib"
     },
