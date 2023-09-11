@@ -77,17 +77,17 @@
   (pad "22" thru_hole circle (at 7.62 8.89) (size 1.8 1.8) (drill 1) (layers "*.Cu" "B.Mask") (tstamp e8ea5174-084a-430f-8d63-65e7fb931378))
   (pad "23" thru_hole circle (at 7.62 11.43) (size 1.8 1.8) (drill 1) (layers "*.Cu" "B.Mask") (tstamp 7c9b3607-dfc6-4fd4-884b-a08dbc00dcfd))
   (pad "24" thru_hole circle (at 7.62 13.97) (size 1.8 1.8) (drill 1) (layers "*.Cu" "B.Mask") (tstamp 59131930-ca40-4936-a1c9-e22f1727f612))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
     (offset (xyz -7.62 13.97 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
     (offset (xyz 7.62 13.97 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../3dmodels/Liatris.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Liatris.step"
     (offset (xyz 0 0 2.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
