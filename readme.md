@@ -66,6 +66,8 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * Pluto - symbol for 0xCB Pluto controller
 * Liatris - symbol for Splitkb Liatris controller
 * nice_nano - symbol for nicekeyboards nice!nano Bluetooth controller
+* seeeduino Xiao nRF52840 - symbol for Seeed Studio Xiao nRF52840 Bluetooth controller
+* seeeduino Xiao rp2040 - symbol for Seeed Studio Xiao rp2040 controller
 
 ## Footprint libs
 Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` were separate libraries, now all footprints were merged into a single repository, but separate libraries. `marbastlib-choc` (to pick one example) is the new equivalent to `main`/`stable`, while `marbastlib-xp-choc` ("xp" stands for "experimental", but also makes sure the xp libs end up on the bottom of the list) join `specialty` and `untested` into one library. Please use anything in a "xp" library with special care, and report back to us once a footprint in such a lib has been successfully tested, so it can be moved into the regular libs.
@@ -178,6 +180,8 @@ These footprints use some (rather cryptic) naming schemes to differentiate vario
 * Pluto - footprints for 0xCB Pluto controller
 * Liatris - footprints for Splitkb Liatris controller
 * nice_nano - footprints for nicekeyboards nice!nano Bluetooth controller
+* seeeduino Xiao nRF52840 - footprints for Seeed Studio Xiao nRF52840 Bluetooth controller
+* seeeduino Xiao rp2040 - footprints for Seeed Studio Xiao rp2040 controller
 
 
 ## 3D Models
@@ -200,6 +204,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
 * holyiot 18010 nRF52840 module (thanks, darryldh!)
+* seeeduino Xiao rp2040 ([source](https://wiki.seeedstudio.com/XIAO-RP2040/))
 * Alps EC11E and EC11N series 3D models ([source](https://tech.alpsalpine.com/e/products/cad.html))
 * Alps SKHLLCA010 ([source](https://tech.alpsalpine.com/prod/e/html/tact/snapin/skhl/skhllca010_3dcad.html))
 * Alps SSSS213100 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/ssss213100_3dcad.html))
