@@ -2,11 +2,11 @@
   (layer "F.Cu")
   (descr "Footprint for Kailh Choc style switches")
   (attr through_hole exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -2.75 180) (layer "Dwgs.User") hide
+  (fp_text reference "REF**" (at 0 2.75 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 47ecae4d-8aae-4075-8b7e-5401b31551a0)
   )
-  (fp_text value "SW_choc_v1_1u" (at 0 -6 180) (layer "F.SilkS") hide
+  (fp_text value "SW_choc" (at 0 0 180) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 23931bb1-cfe5-48ac-af9c-5724097aec7d)
   )
@@ -21,6 +21,10 @@
   (fp_text user "19.05 spacing" (at 0 -8.7 180) (layer "Eco1.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c4471c3f-83ae-472f-abf6-fb9a2d7f165e)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.5) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6f27ece4-a2aa-494e-9704-8a260415d242)
   )
   (fp_line (start -9 -8.5) (end 9 -8.5)
     (stroke (width 0.12) (type solid)) (layer "Dwgs.User") (tstamp e8a30d80-0f70-497b-aff8-e43ea47f64ba))

@@ -7,9 +7,13 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7a04ebcb-1b63-4511-a77b-38a3b6d12fb9)
   )
-  (fp_text value "${REFERENCE}" (at 1.6 1.45) (layer "F.Fab") hide
+  (fp_text value "FH33J-10S-0.5SH" (at 2.25 3.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6214685d-9130-4920-9aa9-94a04efaf4de)
+  )
+  (fp_text user "${REFERENCE}" (at 2.25 1) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cb567d5e-de1e-4d96-a1d7-6c238478cad5)
   )
   (fp_line (start -1.45 -0.05) (end -0.35 -0.05)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e928a581-9b04-491f-83f8-8b4d346bac5f))

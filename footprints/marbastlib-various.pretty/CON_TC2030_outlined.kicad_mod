@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fff0d787-977a-4b1f-9b45-764544388e70)
   )
-  (fp_text value "Tag-Connect TC2030" (at 0 -2.3) (layer "F.Fab")
+  (fp_text value "Tag-Connect TC2030" (at 0 -2.3) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7abcd08d-bf7f-4f34-b469-3494693b5147)
   )

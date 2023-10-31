@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 49916c7f-dfde-409c-b264-4392407a140d)
   )
-  (fp_text value "STAB_MX_10u" (at 0 8.128) (layer "F.Fab")
+  (fp_text value "STAB_MX_10u" (at 0 8.128) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 74f518e6-f685-473d-b457-0ae1bdc7688c)
   )
