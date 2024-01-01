@@ -144,6 +144,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
 * SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
 * SW_SPST_SKQG_WithStem - copy of the default KiCAD lib's SKQG footprint, but with rounded pads and pre-assigned 3d model
+* SW_T1A2QR - footprint for the Diptronics T1A2QR SMD pushbutton
 * SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
 * SW_kailh_big_1u - footprint for a Kailh x Novelkeys Big Switch
@@ -201,6 +202,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * MJ-4PP-9
 * Seiko Epson FA-128
 * MSK12C02-HB
+* T1A2QR
 * ESP3020 switch
 * Moko MK08A nRF52840 module
 * EBYTE E73-2G4M08S1C nRF52840 module
