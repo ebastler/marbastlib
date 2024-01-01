@@ -1,5 +1,7 @@
 (footprint "nRF52840_moko_mk08_HS" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Module containing a nRF52840 and most passives and antenna")
+  (tags "moko mk08a mk08b nRF52840 bluetooth low energy ")
   (attr smd)
   (fp_text reference "REF**" (at -8.3 9.1 90 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))

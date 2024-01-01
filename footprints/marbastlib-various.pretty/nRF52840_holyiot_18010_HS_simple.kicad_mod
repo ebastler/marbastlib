@@ -1,7 +1,7 @@
 (footprint "nRF52840_holyiot_18010_HS_simple" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Module containing a nRF52840 and most passives and antenna, with only hand solderable pads")
-  (tags "holyiot 18010 bluetooth low energy ")
+  (tags "holyiot 18010 nRF52840 bluetooth low energy ")
   (attr smd)
   (fp_text reference "REF**" (at -5.3 10.7) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))

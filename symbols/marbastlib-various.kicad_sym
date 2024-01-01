@@ -3120,7 +3120,7 @@
     (property "Value" "nRF52840_E73-2G4M08S1C" (at 26.67 39.37 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "WIP_marbastlib-various:nRF52840_E73-2G4M08S1C" (at -5.08 0 90)
+    (property "Footprint" "PCM_marbastlib-xp-various:nRF52840_E73-2G4M08S1C" (at -5.08 0 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ebyte.com/en/downpdf.aspx?id=445" (at 0 -53.34 0)
