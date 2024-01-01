@@ -48,6 +48,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * MAX77751 - a 1S LiIon battery management chip
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
+* nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
 * SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
 * SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
@@ -89,6 +90,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_choc_v1+v2 - solder-footprints for Kailh Choc v1 and v2 switches
 * SW_choc_v2_HS - hotswap-footprints for Kailh Choc v2 switches
 
+
 ### marbastlib-mx
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for MX switch spacing (User.Drawings). LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_MX - solder-footprints for Cherry MX switches
@@ -106,6 +108,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_MX_ULP_1u - solder-footprints for Cherry MX ultra low profile switches
 * SW_MX_ULP_1u_handsolder - experimental handsolder-footprints for Cherry MX ultra low profile switches
 
+
 ### marbastlib-hitek
 Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or similarly uncommon shapes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed.
 * SW_HiTek - solder-footprints for HiTek 725 series switches
@@ -113,12 +116,14 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 ### marbastlib-xp-hitek
 * SW_HiTek_Mount - solder-footprints for HiTek 725 series switches including drills for the mounting screws for the switches
 
+
 ### marbastlib-alps
 Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or other stabilized sizes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed. Remember to add stabilizers from the MX library for combo footprints, if you plan to use them with MX PCB mount stabilizers as well.
 
 ### marbastlib-xp-alps
 * SW_Alps - solder-footprints for Alps SKCM/SKCL series switches
 * SW_Alps_MX - combined solder-footprints for Alps SKCM/SKCL and Cherry MX series switches
+
 
 ### marbastlib-various
 * Molex_Pico-EZmate_78171* - footprints for Molex Pico EZmate series with preassigned 3d models
@@ -149,7 +154,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * mousebites_5p5mm_easysnap - special mousebites designed for easy tool-less depanelizing
 * nRF52840_holyiot_18010 - a footprint for the holyiot 18010 nRF52840 BLE module
 * nRF52840_holyiot_18010_HS_simple - a footprint for the holyiot 18010 nRF52840 BLE module exposing only the hand-solderable castellates side IO
-* nRF52840_moko_mk08 - a footprint for the Moko MK08 nRF52840 BLE module
+* nRF52840_moko_mk08 - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module
 
 ### marbastlib-xp-various
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
@@ -165,6 +170,9 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
 * nRF52840_holyiot_18010_HS_all - a footprint for the holyiot 18010 nRF52840 BLE module intended to allow hand soldering from the rear (milled slot on bottom of module to access bottom pads)
 * nRF52840_moko_mk08_HS - a footprint for the Moko MK08 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
+* nRF52840_E73-2G4M08S1C - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module
+* nRF52840_E73-2G4M08S1C_simple - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module exposing only castellated pads
+
 
 ### marbastlib-xp-plate-mx
 * Plate_MX - footprints to make FR4 plates, just bare milled slots
@@ -195,9 +203,10 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * MSK12C02-HB
 * ESP3020 switch
 * Moko MK08A nRF52840 module
-* JST BM02B-ACHSS (source: JST)
+* EBYTE E73-2G4M08S1C nRF52840 module
 * HytePro M411P connector
-* Liatris
+* Liatris (source: splitkb)
+* JST BM02B-ACHSS (source: JST)
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
