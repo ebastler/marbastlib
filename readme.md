@@ -50,6 +50,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 * nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
+* PI3USB102EZLEX - a high-speed diffpair 1x2 MUX
 * SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
 * SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
