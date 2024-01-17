@@ -46,6 +46,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
 * MAX77751 - a 1S LiIon battery management chip
+* MAX77757 - a 1S LiIon battery management chip
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 * nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
