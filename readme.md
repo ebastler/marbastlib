@@ -160,6 +160,8 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * nRF52840_holyiot_18010 - a footprint for the holyiot 18010 nRF52840 BLE module
 * nRF52840_holyiot_18010_HS_simple - a footprint for the holyiot 18010 nRF52840 BLE module exposing only the hand-solderable castellates side IO
 * nRF52840_moko_mk08 - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module
+* nRF52840_E73-2G4M08S1C - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module
+* nRF52840_E73-2G4M08S1C_simple - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module exposing only castellated pads
 
 ### marbastlib-xp-various
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
@@ -173,8 +175,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
 * nRF52840_holyiot_18010_HS_all - a footprint for the holyiot 18010 nRF52840 BLE module intended to allow hand soldering from the rear (milled slot on bottom of module to access bottom pads)
 * nRF52840_moko_mk08_HS - a footprint for the Moko MK08 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
-* nRF52840_E73-2G4M08S1C - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module
-* nRF52840_E73-2G4M08S1C_simple - a footprint for the EBYTE E73-2G4M08S1C nRF52840 BLE module exposing only castellated pads
 
 
 ### marbastlib-xp-plate-mx
