@@ -80,9 +80,9 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_choc_v1 - solder-footprints for Kailh Choc v1 switches
 * SW_choc_v1_HS - hotswap-footprints for Kailh Choc v1 switches
 * LED_choc_6028R(-ROT) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
+* LED_choc_1206R(-ROT) - add-on footprint for Kailh Choc with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-xp-choc
-* LED_choc_1206R(-ROT) - add-on footprint for Kailh Choc with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_choc_WS2812_2020(-ROT) - experimental add-on footprint for Kailh Choc with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * PLATE_choc - experimental footprint intended to be added to a choc switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
 * STAB_choc_2u - footprint for Kailh Choc 2u stabilizers
@@ -101,9 +101,9 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * LED_MX_6028R(-ROT) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
 * STAB_MX_P - footprint for Cherry MX PCB-mount stabilizers with plated screw holes
+* LED_MX_1206R(-ROT) - add-on footprint for Cherry MX switches with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-xp-mx
-* LED_MX_1206R(-ROT) - add-on footprint for Cherry MX switches with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_MX_WS2812_2020-E(-ROT) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
 * SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
@@ -137,6 +137,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCAD lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
+* LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCAD EC11E footprint with pre-assigned 3d model
@@ -163,7 +164,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
-* LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
