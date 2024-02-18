@@ -139,6 +139,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
+* PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCAD EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
@@ -167,7 +168,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
-* PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
