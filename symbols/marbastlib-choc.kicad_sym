@@ -288,7 +288,7 @@
     (property "Value" "LED_MHT151RGBCT" (at 0 -8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_marbastlib-xp-choc:LED_choc_1206R" (at 0 -1.27 0)
+    (property "Footprint" "PCM_marbastlib-choc:LED_choc_1206R" (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf" (at 0 -1.27 0)
