@@ -20,15 +20,16 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 ## Symbol Libs
 ### marbastlib-mx
 * MX_SW_solder - switch symbol with pre-assigned 1u solder footprint
-* MX_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
+* MX_SW_HS_CPG151101S11 - switch symbol with pre-assigned 1u Kailh CPG151101S11 hotswap footprint
+* MX_SW_HS_KS-2P02B01-01 - switch symbol with pre-assigned 1u Gateron KS-2P02B01-01 hotswap footprint
 * MX_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 6.25u stabilizer.
 * MX_SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
 * MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
 * MX_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-choc
-* choc_SW_solder - switch symbol with pre-assigned 1u solder footprint
-* choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
+* choc_v1_SW_solder - switch symbol with pre-assigned 1u solder footprint
+* choc_v1_SW_HS_CPG135001S30 - switch symbol with pre-assigned 1u Kailh CPG135001S30 hotswap footprint
 * choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
 * choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
 * choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
@@ -78,7 +79,7 @@ Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` 
 ### marbastlib-choc
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_choc_v1 - solder-footprints for Kailh Choc v1 switches
-* SW_choc_v1_HS - hotswap-footprints for Kailh Choc v1 switches
+* SW_choc_v1_HS_CPG135001S30 - Kailh CPG135001S30 hotswap-footprints for Kailh Choc v1 switches
 * LED_choc_6028R(-ROT) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
 * LED_choc_1206R(-ROT) - add-on footprint for Kailh Choc with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
@@ -90,13 +91,13 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_choc_MxCombo_1u - combo footprints for Kailh Choc (v1 only) and Cherry MX style switches
 * SW_choc_Reversible_1u - reversible footprints for Kailh Choc (v1 only) switches
 * SW_choc_v1+v2 - solder-footprints for Kailh Choc v1 and v2 switches
-* SW_choc_v2_HS - hotswap-footprints for Kailh Choc v2 switches
+* SW_choc_v2_HS_CPG135001S30 - Kailh CPG135001S30 hotswap-footprints for Kailh Choc v2 switches
 
 
 ### marbastlib-mx
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for MX switch spacing (User.Drawings). LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_MX - solder-footprints for Cherry MX switches
-* SW_MX_HS - hotswap-footprints for Cherry MX switches
+* SW_MX_HS_CPG151101S11 - Kailh CPG151101S11 hotswap-footprints for Cherry MX switches
 * LED_MX_3mm(-ROT) - add-on footprint for Cherry MX switches with 3mm single color LEDs
 * LED_MX_6028R(-ROT) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
@@ -106,6 +107,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 ### marbastlib-xp-mx
 * LED_MX_WS2812_2020-E(-ROT) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
+* SW_MX_HS_KS-2P02B01-01 - Gateron KS-2P02B01-01 hotswap-footprints for Cherry MX switches
 * SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * SW_MX_ULP_1u - solder-footprints for Cherry MX ultra low profile switches
 * SW_MX_ULP_1u_handsolder - experimental handsolder-footprints for Cherry MX ultra low profile switches
@@ -224,7 +226,8 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Alps SSSS223900 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/SSSS223900_3dcad.html))
 * Alps RKJXU1210006 Thumbstick ([source](https://tech.alpsalpine.com/e/products/detail/RKJXU1210006/))
 * PSP-1000 Thumbstick (thanks [thanks, Hendrik!](https://github.com/HendrikRoth))
-* Kailh Hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
-* Kailh Hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
+* Kailh CPG151101S11 hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
+* Kailh CPG135001S30 hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
 * Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
 * Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
+* Gateron KS-2P02B01-01 hotswap socket (MX style) (Thank you very much, Gateron!)
