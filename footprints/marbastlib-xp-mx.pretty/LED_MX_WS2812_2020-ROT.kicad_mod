@@ -82,8 +82,8 @@
   (pad "3" smd roundrect (at 1.15 -0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 1809d6d3-ceed-4a41-8de5-279f2e9400be))
   (pad "4" smd roundrect (at 1.15 0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp aea6a50f-590c-4ef3-93a2-91241a4f7453))
   (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812_2020.step"
-    (offset (xyz 0 0 -2.06))
+    (offset (xyz 0 0 0.32))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 180 0 0))
   )
 )

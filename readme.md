@@ -93,6 +93,15 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_choc_v1+v2 - solder-footprints for Kailh Choc v1 and v2 switches
 * SW_choc_v2_HS_CPG135001S30 - Kailh CPG135001S30 hotswap-footprints for Kailh Choc v2 switches
 
+### marbastlib-gatlp
+
+### marbastlib-xp-gatlp
+* SW_KS33 - solder-footprints for Gateron KS-33 switches
+* SW_KS33_HS_KS-2P02B01-02 - Gateron KS-2P02B01-02 hotswap-footprints for Gateron KS-33 switches
+* LED_KS33_6028R(-ROT) - add-on footprint for Gateron KS-33 with [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and addressable SK6812MINI-E RGB LEDs
+* LED_KS33_1206R(-ROT) - add-on footprint for Gateron KS-33 with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
+* LED_KS33_WS2812_2020(-ROT) - experimental add-on footprint for Gateron KS-33 with reverse mounted WS2812_2020 - hand soldering only, use with caution
+
 
 ### marbastlib-mx
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for MX switch spacing (User.Drawings). LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
@@ -231,3 +240,4 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
 * Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
 * Gateron KS-2P02B01-01 hotswap socket (MX style) (Thank you very much, Gateron!)
+* Gateron KS-2P02B01-02 hotswap socket (KS33 style) (Thank you very much, Gateron!)
