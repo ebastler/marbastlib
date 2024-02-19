@@ -23,7 +23,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * MX_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
 * MX_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 6.25u stabilizer.
 * MX_SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
-* MX_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* MX_LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * MX_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-choc
@@ -31,7 +31,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * choc_SW_HS - switch symbol with pre-assigned 1u hotswap footprint
 * choc_Stab - a symbol used to place keyboard stabilizers. Pre-assigned 2u stabilizer.
 * choc_SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
-* choc_LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* choc_LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * choc_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-various
@@ -42,7 +42,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * FUSB303B - a standalone USB Type-C dual role port controller with I2C and GPIO control
 * IS31FL3741A - a 39x9 LED multiplex driver
 * joystick_analog - symbol for a analog, dual pot thumbstick, comes pre-assigned with a PSP-1000 thumbstick footprint
-* LED_6028R - symbol with preassigned footprint for reverse mount 6028 RGB LEDs
+* LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
 * MAX77751 - a 1S LiIon battery management chip
@@ -79,7 +79,7 @@ Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` 
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for both choc (User.Eco1) and MX (User.Drawings) switch spacing. LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_choc_v1 - solder-footprints for Kailh Choc v1 switches
 * SW_choc_v1_HS - hotswap-footprints for Kailh Choc v1 switches
-* LED_choc_6028R(-ROT) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
+* LED_choc_6028R(-ROT) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and addressable SK6812MINI-E RGB LEDs
 * LED_choc_1206R(-ROT) - add-on footprint for Kailh Choc with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-xp-choc
@@ -98,7 +98,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_MX - solder-footprints for Cherry MX switches
 * SW_MX_HS - hotswap-footprints for Cherry MX switches
 * LED_MX_3mm(-ROT) - add-on footprint for Cherry MX switches with 3mm single color LEDs
-* LED_MX_6028R(-ROT) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and addressable SK6812MINI-E RGB LEDs
+* LED_MX_6028R(-ROT) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and addressable SK6812MINI-E RGB LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
 * STAB_MX_P - footprint for Cherry MX PCB-mount stabilizers with plated screw holes
 * LED_MX_1206R(-ROT) - add-on footprint for Cherry MX switches with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
@@ -136,7 +136,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_HytePro M411P - footprint for a [HytePro M411P](https://www.hyte.pro/product/m411p.html) 4pin magnetic pogo pin connectors (male and female footprints available)
 * CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCAD lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
-* LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/SMD-6028-Smd-Led-RGB-color_60283039151.html) and adressable SK6812MINI-E reverse mount RGB LEDs
+* LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
