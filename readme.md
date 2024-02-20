@@ -35,6 +35,13 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * choc_LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * choc_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
+### marbastlib-gatlp
+* KS33_SW_solder - switch symbol with pre-assigned 1u solder footprint
+* KS33_SW_HS_CPG135001S30 - switch symbol with pre-assigned 1u Gateron KS-2P02B01-02 hotswap footprint
+* KS33_SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
+* KS33_LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
+* KS33_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
+
 ### marbastlib-various
 * BAV70_Small - a smaller version of the regular BAV70 symbol (easier to use in keyboard matrices)
 * DW01A - a cheap and easily available 1S battery protection chip
