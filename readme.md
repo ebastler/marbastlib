@@ -248,3 +248,4 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
 * Gateron KS-2P02B01-01 hotswap socket (MX style) (Thank you very much, Gateron!)
 * Gateron KS-2P02B01-02 hotswap socket (KS33 style) (Thank you very much, Gateron!)
+* Cherry MX6C-K3NB Switch (ULP Keyswitch) ([source](https://github.com/pashutk/Cherry_MX_ULP/blob/main/Cherry_ULP.pretty/Cherry_MX_ULP.step))
