@@ -185,6 +185,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
+* Molex_Pico-EZmate_HC_208294* - footprints for Molex Pico EZmate HC series with preassigned 3d models
 * XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
@@ -245,8 +246,9 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * PSP-1000 Thumbstick (thanks [thanks, Hendrik!](https://github.com/HendrikRoth))
 * Kailh CPG151101S11 hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
 * Kailh CPG135001S30 hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
-* Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
-* Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134?taxonomyPathValueLast=PCB%20Headers%20and%20Receptacles&null))
+* Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171))
+* Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134))
+* Molex 208294 series ([source](https://www.molex.com/en-us/part-list/208294))
 * Gateron KS-2P02B01-01 hotswap socket (MX style) (Thank you very much, Gateron!)
 * Gateron KS-2P02B01-02 hotswap socket (KS33 style) (Thank you very much, Gateron!)
 * Cherry MX6C-K3NB Switch (ULP Keyswitch) ([source](https://github.com/pashutk/Cherry_MX_ULP/blob/main/Cherry_ULP.pretty/Cherry_MX_ULP.step))
