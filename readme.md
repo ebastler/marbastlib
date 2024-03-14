@@ -236,6 +236,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
+* XUNPU FPC-05F-16PH20 (source: easyEDA component library)
 * holyiot 18010 nRF52840 module (thanks, darryldh!)
 * seeeduino Xiao rp2040 ([source](https://wiki.seeedstudio.com/XIAO-RP2040/))
 * Alps EC11E and EC11N series 3D models ([source](https://tech.alpsalpine.com/e/products/cad.html))
