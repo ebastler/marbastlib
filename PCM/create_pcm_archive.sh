@@ -26,7 +26,7 @@ echo $VERSION > PCM/archive/VERSION
 
 echo "Modify archive metadata.json"
 sed -i "s/VERSION_HERE/$VERSION/g" PCM/archive/metadata.json
-sed -i "s/\"kicad_version\": \"7.0\",/\"kicad_version\": \"7.0\"/g" PCM/archive/metadata.json
+sed -i -E '/\"kicad_version\": \"[0-9]+\.[0-9]\",/ s/.$//g' PCM/archive/metadata.json
 sed -i "/SHA256_HERE/d" PCM/archive/metadata.json
 sed -i "/DOWNLOAD_SIZE_HERE/d" PCM/archive/metadata.json
 sed -i "/DOWNLOAD_URL_HERE/d" PCM/archive/metadata.json
@@ -43,3 +43,4 @@ echo DOWNLOAD_SHA256=$(shasum --algorithm 256 PCM/KiCAD-PCM-$VERSION.zip | xargs
 echo DOWNLOAD_SIZE=$(ls -l PCM/KiCAD-PCM-$VERSION.zip | xargs | cut -d' ' -f5) >> $GITHUB_ENV
 echo DOWNLOAD_URL="https:\/\/github.com\/ebastler\/marbastlib\/releases\/download\/$VERSION\/KiCAD-PCM-$VERSION.zip" >> $GITHUB_ENV
 echo INSTALL_SIZE=$(unzip -l PCM/KiCAD-PCM-$VERSION.zip | tail -1 | xargs | cut -d' ' -f1) >> $GITHUB_ENV
+echo KICAD_VERSION=$(grep kicad_version metadata.template.json |grep -o -E "[0-9]+\.[0-9]" metadata.template.json) >> $GITHUB_ENV
