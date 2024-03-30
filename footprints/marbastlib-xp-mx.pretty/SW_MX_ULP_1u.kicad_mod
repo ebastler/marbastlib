@@ -63,7 +63,7 @@
       )
     )
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_MX6C-K3NB.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_MX6C-K3NB.step"
     (offset (xyz -5.46 -0.033 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

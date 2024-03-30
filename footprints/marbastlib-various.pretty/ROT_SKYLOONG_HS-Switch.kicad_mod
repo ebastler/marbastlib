@@ -51,7 +51,7 @@
   (pad "B" smd circle (at 3.5 1.5) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp 7cf8256c-41ea-4b81-a8fb-ab7b442e1546))
   (pad "C" smd circle (at -3.5 1.5) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp 40088e30-7583-4522-a21b-3e3c142c5e1f))
   (pad "S" smd circle (at -3.5 4) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp c98f48d0-819a-462c-9fa6-bed6e8203e19))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ROT_SKYLOONG_HS.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ROT_SKYLOONG_HS.step"
     (offset (xyz 0 0 5.95))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

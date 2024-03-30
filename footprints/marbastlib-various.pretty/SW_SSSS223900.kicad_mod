@@ -105,7 +105,7 @@
   (pad "6" thru_hole circle (at 2 1.65) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "B.Mask") (tstamp 95115cad-8e5a-45f1-8650-b5dbe72c7c18))
   (pad "7" thru_hole circle (at -2 1.65) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "B.Mask") (tstamp 13e75f3e-3a24-42f4-8553-88ba6473dac6))
   (pad "8" thru_hole circle (at -4 1.65) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "B.Mask") (tstamp 6a951101-1ef6-44dd-85a5-0063d42b69d1))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_SSSS223900.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_SSSS223900.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

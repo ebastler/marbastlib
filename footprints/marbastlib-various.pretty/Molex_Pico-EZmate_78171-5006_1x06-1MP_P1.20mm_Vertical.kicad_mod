@@ -87,7 +87,7 @@
     (thermal_bridge_angle 45) (tstamp 4e0dee6f-5227-4676-8c72-51e181bc706b))
   (pad "MP" thru_hole circle (at 4.05 1.25) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp fcb4763a-3c08-4a0c-9f8a-62f0b75c29e6))
   (pad "MP" smd roundrect (at 4.15 1.9) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d14d08c3-1e42-45e3-851a-ac158fdf12be))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_781715006.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_781715006.step"
     (offset (xyz 0 -0.22 1.43))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

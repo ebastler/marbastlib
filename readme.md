@@ -1,5 +1,5 @@
 # marbastlib
-A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). It is made in/for KiCAD 7.0 stable version. Older versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCAD 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCAD-keyboard-parts.pretty) for KiCAD 5.x.
+A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). The latest release is made in/for KiCAD 8.0 stable version. Older releases are still offered for KiCAD 7.0 stable versions by the PCM. Older versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCAD 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCAD-keyboard-parts.pretty) for KiCAD 5.x.
 
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - the PCM version will automatically download everything in the right file paths.
 

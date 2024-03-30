@@ -37,7 +37,7 @@
     (thermal_bridge_angle 45) (tstamp 585eb887-20e4-44bb-8780-2561dfee422b))
   (pad "2" smd roundrect (at 1.275 0.58) (size 0.55 0.57) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp e57148ef-5619-43d1-9f68-67029e2bcea5))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_T1A2QR.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_T1A2QR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

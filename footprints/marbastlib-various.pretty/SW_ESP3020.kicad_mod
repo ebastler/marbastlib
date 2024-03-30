@@ -34,7 +34,7 @@
   (pad "1" smd rect (at 1.7 -2.54) (size 3.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 383ce207-6f8a-4da4-a44c-12d7d7c9714a))
   (pad "2" smd rect (at -1.7 0) (size 3.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a4a0fbb7-b841-4256-8170-bb43877b3005))
   (pad "3" smd rect (at 1.7 2.54) (size 3.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 109b0961-2804-4fe3-a04c-000cc957aa7f))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_ESP3020.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_ESP3020.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

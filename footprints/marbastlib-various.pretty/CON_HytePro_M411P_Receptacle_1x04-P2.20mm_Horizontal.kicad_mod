@@ -43,7 +43,7 @@
   (pad "2" thru_hole oval (at -2.2 0 180) (size 1.5 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp da7ea2ed-b578-4284-8f02-1e2c8eb786fa))
   (pad "3" thru_hole oval (at -4.4 0 180) (size 1.5 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 325449af-e8a6-4dbf-88af-813c49132463))
   (pad "4" thru_hole oval (at -6.6 0 180) (size 1.5 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 64968288-4260-48c7-8937-23f95285dd88))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_HytePro_M411P_Receptacle_1x04.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_HytePro_M411P_Receptacle_1x04.step"
     (offset (xyz 0 0 -1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

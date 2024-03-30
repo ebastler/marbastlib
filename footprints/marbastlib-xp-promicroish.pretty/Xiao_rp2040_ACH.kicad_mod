@@ -84,7 +84,7 @@
   (pad "20" thru_hole circle (at 1.27 -8.5725 180) (size 1.8 1.8) (drill 1.05) (layers "*.Cu" "*.Mask") (tstamp b3471cc4-a2f1-4bf0-b215-eafa8ba4b499))
   (pad "21" thru_hole circle (at -1.27 -6.0325 180) (size 1.8 1.8) (drill 1.05) (layers "*.Cu" "*.Mask") (tstamp 3052bd35-2910-446e-938a-104d7be1f1a1))
   (pad "22" thru_hole roundrect (at 1.27 -6.0325 180) (size 1.8 1.8) (drill 1.05) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 7ccd8283-63db-4d56-8bda-9eb7c5aca57b))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/seeeduino_xiao_rp2040.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/seeeduino_xiao_rp2040.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -57,7 +57,7 @@
       bb080cda-87ce-4999-b0dd-d5f2662a5bb6
     )
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812_2040.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812_2040.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

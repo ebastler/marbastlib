@@ -73,7 +73,7 @@
   (pad "2" smd roundrect (at 0.6 -1.875) (size 0.6 0.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0e0af1a9-2338-4739-b2c8-d1b1dfa038b0))
   (pad "MP" smd roundrect (at -1.75 1.9) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d02f9566-c731-4de6-8a66-03b001279f6a))
   (pad "MP" smd roundrect (at 1.75 1.9) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b4091732-7ca4-402b-a37e-86bac70a2b95))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_BM02B-ACHSS.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_BM02B-ACHSS.step"
     (offset (xyz 0 -0.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -64,7 +64,7 @@
   (pad "MP" thru_hole roundrect (at 5.6 0 90) (size 3.4 2.2) (drill oval 2.8 1.5) (layers "*.Cu" "B.Mask") (roundrect_rratio 0.25) (tstamp 581c338d-e280-4cca-b269-6389c2f86f18))
   (pad "S1" thru_hole circle (at 2.5 -7 90) (size 2 2) (drill 1) (layers "*.Cu" "B.Mask") (tstamp 7d67148e-6a33-40ce-8b6b-e59f7dfe7253))
   (pad "S2" thru_hole circle (at -2.5 -7 90) (size 2 2) (drill 1) (layers "*.Cu" "B.Mask") (tstamp e4806ec9-285f-4aec-99da-67ca111daa66))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ROT_EC11E.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ROT_EC11E.step"
     (offset (xyz -2.5 -7.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

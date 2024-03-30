@@ -92,7 +92,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Liatris.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Liatris.step"
     (offset (xyz 0 0 3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

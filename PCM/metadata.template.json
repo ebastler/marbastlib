@@ -2,7 +2,7 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "marbastlib",
     "description": "A collection of symbols/footprints for keyboard design",
-    "description_full": "This library focuses on keyboard design, and features - among others - footprints for Cherry MX, Alps SKCM, Hi-Tek 725, Kailh Choc v1 and v2.",
+    "description_full": "This library focuses on keyboard design, and features - among others - footprints for Cherry MX, Alps SKCM, Hi-Tek 725, Kailh Choc v1 and v2, and Gateron KS-33.",
     "identifier": "com.github.ebastler.marbastlib",
     "type": "library",
     "author": {
@@ -24,7 +24,7 @@
     "versions": [{
         "version": "VERSION_HERE",
         "status": "testing",
-        "kicad_version": "7.0",
+        "kicad_version": "8.0",
         "download_sha256": "SHA256_HERE",
         "download_size": DOWNLOAD_SIZE_HERE,
         "download_url": "DOWNLOAD_URL_HERE",

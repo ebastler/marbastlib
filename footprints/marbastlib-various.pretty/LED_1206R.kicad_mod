@@ -42,7 +42,7 @@
   (pad "2" smd roundrect (at -1.55 0.55 270) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp da081437-6e04-44c9-abf8-91d9afa412e1))
   (pad "3" smd roundrect (at 1.55 0.55 270) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp ff4abba4-252c-492b-94a1-813a5f2b4368))
   (pad "4" smd roundrect (at 1.55 -0.55 270) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 671ddb5a-7752-422f-b2a4-e1a0fde6e3e7))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_MHT151RGBCT.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_MHT151RGBCT.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

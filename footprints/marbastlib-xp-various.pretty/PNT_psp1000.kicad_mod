@@ -121,7 +121,7 @@
   (pad "4" smd roundrect (at -3 -8) (size 1.75 4.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 9ee52277-c678-49ae-808d-638170e44554))
   (pad "MP" thru_hole circle (at -8.328428 -8.95) (size 2.8 2.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp e5d3a170-5c82-450d-8f4c-21483e02ef7e))
   (pad "MP" thru_hole circle (at -7.5 10.232119) (size 2.8 2.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 2095a12d-7e88-4360-9efb-d72e97bc13a0))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/PNT_psp1000.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/PNT_psp1000.step"
     (offset (xyz -9.25 -9.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

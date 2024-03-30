@@ -107,7 +107,7 @@
   (pad "2" smd roundrect (at -6.09 -5.08) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 41da3ea1-58d0-4aba-93f7-8ce2af6a53bb))
   (pad "2" smd rect (at -4.34 -5.08) (size 1.65 2.5) (layers "F.Cu") (tstamp e749ee5a-d09c-4ada-9188-bc8f921dfe47))
   (pad "2" thru_hole circle (at -2.54 -5.08) (size 3.3 3.3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 3663e1f7-ba20-4bc0-91e1-db141439ae5e))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG151101S11_MX.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG151101S11_MX.step"
     (offset (xyz -4.82 6.74 1.82))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

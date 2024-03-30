@@ -87,7 +87,7 @@
   (pad "S1" thru_hole oval (at -5.575 0.08 180) (size 1.2 2.25) (drill oval 0.6 1.65) (layers "*.Cu" "*.Mask") (tstamp e811c924-a867-4919-a641-0b69b6804ae8))
   (pad "S1" thru_hole oval (at 5.575 0.08 180) (size 1.2 2.25) (drill oval 0.6 1.65) (layers "*.Cu" "*.Mask") (tstamp 9a3b0ec2-196f-44d6-9cb0-b457c4c27d73))
   (pad "S1" thru_hole oval (at 5.595 4.68 180) (size 1.2 2.25) (drill oval 0.6 1.65) (layers "*.Cu" "*.Mask") (tstamp d08c16d6-5bf1-4c01-89b6-029bd09060e8))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_TYPE-C-31-M-14.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_TYPE-C-31-M-14.step"
     (offset (xyz 0 -6.43 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

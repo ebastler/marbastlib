@@ -148,7 +148,7 @@
   (pad "2" smd rect (at -1.55 5.95 180) (size 1.2 2.6) (layers "F.Cu") (tstamp 5d0992e3-9409-4294-955e-908a96b8d1f5))
   (pad "2" thru_hole circle (at 0 5.95) (size 3.3 3.3) (drill 3) (layers "*.Cu" "F.Mask") (tstamp 76de4ee3-dd07-4f2d-a202-b90db5b812f5))
   (pad "MP" thru_hole circle (at -5 -5.15 180) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "F.Mask") (tstamp 41a96f6b-a230-4fc5-9813-d7454bf4a9c0))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
     (offset (xyz -5 -3.75 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
