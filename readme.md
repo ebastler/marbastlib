@@ -148,6 +148,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 ### marbastlib-various
 * Molex_Pico-EZmate_78171* - footprints for Molex Pico EZmate series with preassigned 3d models
 * Molex_Pico-EZmate_PLUS_212134* - footprints for Molex Pico EZmate PLUS series with preassigned 3d models
+* Molex_Pico-EZmate_HC_208294* - footprints for Molex Pico EZmate HC series with preassigned 3d models
 * CON_FH33J-4S-0.5SH - 4pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
@@ -185,7 +186,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
-* Molex_Pico-EZmate_HC_208294* - footprints for Molex Pico EZmate HC series with preassigned 3d models
 * XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
