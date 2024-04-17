@@ -6,7 +6,7 @@
 	(descr "2040 side-firing SMD adressable RGB LED with integrated controller")
 	(tags "LED RGB NeoPixel")
 	(property "Reference" "REF**"
-		(at 0 -2.45 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "cf2cb3c6-dbda-4e71-b0e9-a4fdd9245c98")
 		(effects
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b174174-71c0-4053-8a52-bd7d6cb44a7f")
+		(uuid "074ef50c-40e9-4085-b9ed-608fad257525")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4fb3dfc8-2203-49ba-9a38-be0c7b102aca")
+		(uuid "d0d9e615-b70c-4b2b-9967-159c8b8489f9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f6893082-c2f7-4fda-b0a8-1d8ebc99adcf")
+		(uuid "fdbf298f-2e73-4dc7-982b-271cfcb28847")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 	(attr smd)
 	(fp_line
 		(start -2 -0.65)
-		(end 1.65 -0.65)
+		(end 2 -0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -75,7 +75,7 @@
 		(uuid "ebf8ca2f-7cb2-4018-9a4b-f0f15c049838")
 	)
 	(fp_line
-		(start -2 0)
+		(start -2 0.25)
 		(end -2 -0.65)
 		(stroke
 			(width 0.1)
@@ -85,17 +85,7 @@
 		(uuid "7ea71ffa-d496-4f64-9b78-f88d50add083")
 	)
 	(fp_line
-		(start -2 0)
-		(end -2 1.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a772e129-f006-4666-9051-c3f5509271af")
-	)
-	(fp_line
-		(start -2 1.1)
+		(start -2 0.25)
 		(end -1.65 1.1)
 		(stroke
 			(width 0.1)
@@ -106,7 +96,7 @@
 	)
 	(fp_line
 		(start 1.65 1.1)
-		(end 2 1.1)
+		(end 2 0.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,18 +105,8 @@
 		(uuid "2695c8f3-ee54-4844-8470-c55be4f133a7")
 	)
 	(fp_line
-		(start 2 0)
-		(end 2 -0.3)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "24337597-23e1-4a5d-8da5-62d4a00ef375")
-	)
-	(fp_line
-		(start 2 0)
-		(end 2 1.1)
+		(start 2 -0.65)
+		(end 2 0.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -134,16 +114,17 @@
 		(layer "F.SilkS")
 		(uuid "a6c70fb4-f6e8-4b68-8411-a755c7ff444d")
 	)
-	(fp_circle
-		(center 2 -0.65)
-		(end 2.05 -0.65)
-		(stroke
-			(width 0.1)
-			(type default)
+	(fp_poly
+		(pts
+			(xy 1.2725 -0.15) (xy 1.07451 -0.34799) (xy 1.47049 -0.34799) (xy 1.2725 -0.15)
 		)
-		(fill none)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "5af46790-0d6d-4d0d-b22c-b8f575e570ac")
+		(uuid "ba39b6ac-68af-4b44-9a6f-dbeab9bef1fa")
 	)
 	(fp_line
 		(start -2 -0.65)
@@ -156,7 +137,7 @@
 		(uuid "3c3173f9-43f4-4629-953c-d5d34aae97e3")
 	)
 	(fp_line
-		(start -2 1.1)
+		(start -2 0.25)
 		(end -2 -0.65)
 		(stroke
 			(width 0.1)
@@ -164,6 +145,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "1f4cdcdb-226e-4339-8cff-e6227388815b")
+	)
+	(fp_line
+		(start -1.65 1.1)
+		(end -2 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "74ed9601-e0c9-4253-b6f2-cbf4e8b1183a")
 	)
 	(fp_line
 		(start 1.25 -0.65)
@@ -176,24 +167,34 @@
 		(uuid "6858b601-f59b-4264-b21b-69bd9e668919")
 	)
 	(fp_line
-		(start 2 -0.65)
-		(end 2 1.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "4f1dc1b7-041b-4abc-80cd-8e3293d5de42")
-	)
-	(fp_line
-		(start 2 1.1)
-		(end -2 1.1)
+		(start 1.65 1.1)
+		(end -1.65 1.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
 		(uuid "597256ef-895d-4335-a352-55c8e004a2f0")
+	)
+	(fp_line
+		(start 1.65 1.1)
+		(end 2 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f4f2d6d6-8ddc-47af-9920-c214b20d2622")
+	)
+	(fp_line
+		(start 2 -0.65)
+		(end 2 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4f1dc1b7-041b-4abc-80cd-8e3293d5de42")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2 0)
@@ -244,15 +245,15 @@
 			"a8d3561b-ec67-4aa7-8821-fd6e60f5d3ee" "bb080cda-87ce-4999-b0dd-d5f2662a5bb6"
 		)
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812_2040.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812-4020.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -1.1 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 180 0 180)
 		)
 	)
 )
