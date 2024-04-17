@@ -55,6 +55,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
 * MAX77751 - a 1S LiIon battery management chip
 * MAX77757 - a 1S LiIon battery management chip
+* MP2722 - a 1S LiIon battery management chip
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 * nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
@@ -190,6 +191,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
+* QFN-22_MP2722_2.5x3.5mm_P0.4mm - a 1S LiIon battery management chip
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
@@ -231,6 +233,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * HytePro M411P connector
 * Liatris (source: splitkb)
 * JST BM02B-ACHSS (source: JST)
+* MP2722
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
