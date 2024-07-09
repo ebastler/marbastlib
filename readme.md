@@ -199,6 +199,8 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * L_Bourns_SRP6060FA_6.6x6.4mm - footprint for [Borns SRP6060FA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6060FA-150M_C2047415.html) high power inductors
 * L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * MAX77751 - a 1S LiIon battery management chip
+* HC-PBB40C-10DP-0.4V-02 - Mezzanine-style 10 pin board-to-board connector. Various mating heights available. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DP-0-4V-02_C19089226.html)
+* HC-PBB40C-10DS-0.4V-2.0-02 - Mezzanine-style 10 pin board-to-board connector. 2mm mating height. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DS-0-4V-2-0-02_C19089252.html)
 * PDFN3.3x3.3_EP - footprint for 3.3x3.3mm DFN8 power MOSFETs like [WSD4070DN](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008211234_Winsok-Semicon-WSD4070DN_C719095.pdf)
 * PDFN3.3x3.3-8L_2 - footprint for 3.3x3.3mm DFN8 dual power MOSFETs like [AP2317QD](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
 * QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
@@ -252,6 +254,8 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Cenker_CKST353220
 * U-DFN2020-6
 * PDFN3333
+* HC-PBB40C-10DP-0.4V-02
+* HC-PBB40C-10DS-0.4V-2.0-02 (source: easyEDA component library)
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))

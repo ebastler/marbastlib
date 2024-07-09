@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "10 pin Mezzanine style connector, multiple mating heights available")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(unlocked yes)
@@ -16,7 +17,7 @@
 		)
 	)
 	(property "Value" "HC-PBB40C-10DP-0.4V-02"
-		(at 0 1 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5928c506-459c-4dbc-936d-187ced1cec63")
@@ -27,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "HC-PBB40C-10DP-0.4V-02"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310261000_HCTL-HC-PBB40C-10DP-0-4V-02_C19089226.pdf"
 		(at 0.2 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -139,8 +140,30 @@
 		(layer "F.SilkS")
 		(uuid "2b1e9537-d23d-4bb1-8acf-1dd4106775f4")
 	)
+	(fp_rect
+		(start -1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03a17983-c17b-47d3-9a7e-55691388491c")
+	)
+	(fp_rect
+		(start -1.7 -1)
+		(end 1.7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "33d478da-146c-40d7-a715-5af469fc5c06")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "84a3cdc1-3a78-4af6-80a1-48ea8670f036")
@@ -249,7 +272,7 @@
 		(roundrect_rratio 0.1640419948)
 		(uuid "a236a585-ec24-4c7f-aaac-e0c97619508a")
 	)
-	(model "${KIPRJMOD}/../custom.pretty/HC-PBB40C-10DP-0.4V-02.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_HC-PBB40C-10DP-0.4V-02.step"
 		(offset
 			(xyz 0 0 0)
 		)
