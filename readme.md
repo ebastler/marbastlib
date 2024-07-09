@@ -199,6 +199,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
 * nRF52840_holyiot_18010_HS_all - a footprint for the holyiot 18010 nRF52840 BLE module intended to allow hand soldering from the rear (milled slot on bottom of module to access bottom pads)
 * nRF52840_moko_mk08_HS - a footprint for the Moko MK08 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
+* USB_C_Receptacle_HRO_TYPE-C-31-M-23 - footprint for a HRO Koreaparts M-23 USB-C 2.0 receptacle
 
 
 ### marbastlib-xp-plate-mx
@@ -241,6 +242,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
+* HRO TYPE-C-31-M-23 (source: easyEDA component library)
 * XUNPU FPC-05F-16PH20 (source: easyEDA component library)
 * XUNPU FPC-05F-20PH20 (source: easyEDA component library)
 * XUNPU FPC-05F-24PH20 (source: easyEDA component library)
