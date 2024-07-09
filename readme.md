@@ -57,6 +57,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * MAX77751 - a 1S LiIon battery management chip
 * MAX77757 - a 1S LiIon battery management chip
 * MP2722 - a 1S LiIon battery management chip
+* MP3431 - Synchronous boost converter, 2.7 to 13Vin, 16 Vout, 30-40W
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 * nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
@@ -197,6 +198,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * MAX77751 - a 1S LiIon battery management chip
 * QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
+* QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
@@ -240,6 +242,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Liatris (source: splitkb)
 * JST BM02B-ACHSS (source: JST)
 * Monolithic Power MP2722
+* Monolithic Power MP3431
 * Bourns_SRP6050CA
 * Bourns_SRP6060FA
 * Cenker_CKST353220
