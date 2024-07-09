@@ -6334,7 +6334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-various:QFN-22_2.5x3.5mm_P0.4mm"
+		(property "Footprint" "PCM_marbastlib-various:QFN-22_MP2722_2.5x3.5mm_P0.4mm"
 			(at 0 0 0)
 			(effects
 				(font
