@@ -157,6 +157,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_HytePro M411P - footprint for a [HytePro M411P](https://www.hyte.pro/product/m411p.html) 4pin magnetic pogo pin connectors (male and female footprints available)
 * CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCAD lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
+* XUNPU_FPC-05F-**PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector (16/20/24 pin in library)
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
@@ -188,7 +189,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
-* XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector
+* XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
@@ -241,6 +242,9 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
 * XUNPU FPC-05F-16PH20 (source: easyEDA component library)
+* XUNPU FPC-05F-20PH20 (source: easyEDA component library)
+* XUNPU FPC-05F-24PH20 (source: easyEDA component library)
+* XUNPU FPC-0.5AL-20PB (source: easyEDA component library)
 * holyiot 18010 nRF52840 module (thanks, darryldh!)
 * seeeduino Xiao rp2040 ([source](https://wiki.seeedstudio.com/XIAO-RP2040/))
 * Alps EC11E and EC11N series 3D models ([source](https://tech.alpsalpine.com/e/products/cad.html))
