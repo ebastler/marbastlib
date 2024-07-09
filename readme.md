@@ -43,6 +43,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * KS33_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
 ### marbastlib-various
+* AP2317QD - 3.3x3.3mm DFN8 dual power MOSFET. [Datasheet](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
 * BAV70_Small - a smaller version of the regular BAV70 symbol (easier to use in keyboard matrices)
 * DMP1022UFDF - very small p-ch FET, -9.5A, -12V [DMP1022UFDF](https://datasheet.lcsc.com/lcsc/1806082142_Diodes-Incorporated-DMP1022UFDF-7_C155358.pdf)
 * DW01A - a cheap and easily available 1S battery protection chip
