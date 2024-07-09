@@ -71,6 +71,7 @@ From this point on you will have "ebastler KiCAD repository" in your drop-down s
 * TXB0101 - a bidirectional levelshifter
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
 * WS2812_4020 - symbol with preassigned footprint for WS2812B-4020 side-firing LED
+* WSD4070DN - high power n-ch FET, 68A, 40V: [WSD4070DN](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008211234_Winsok-Semicon-WSD4070DN_C719095.pdf)
 * ROT_SKYLOON_HS-Swicth - symbol for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule)
 
 ### marbastlib-promicroish
@@ -191,12 +192,15 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
 * XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
+* Diodes_UDFN2020-6_Type-F - footprint for [DMP1022UFDF](https://datasheet.lcsc.com/lcsc/1806082142_Diodes-Incorporated-DMP1022UFDF-7_C155358.pdf) (copy of KiCad default footprint with preassigned 3d model)
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * L_Bourns_SRP6050CA_6.6x6.4mm - footprint for [Borns SRP6050CA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6050CA-1R0M_C2047688.html) high power inductors
 * L_Bourns_SRP6060FA_6.6x6.4mm - footprint for [Borns SRP6060FA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6060FA-150M_C2047415.html) high power inductors
 * L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * MAX77751 - a 1S LiIon battery management chip
+* PDFN3.3x3.3_EP - footprint for 3.3x3.3mm DFN8 power MOSFETs like [WSD4070DN](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008211234_Winsok-Semicon-WSD4070DN_C719095.pdf)
+* PDFN3.3x3.3-8L_2 - footprint for 3.3x3.3mm DFN8 dual power MOSFETs like [AP2317QD](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
 * QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
 * QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
@@ -246,6 +250,8 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Bourns_SRP6050CA
 * Bourns_SRP6060FA
 * Cenker_CKST353220
+* U-DFN2020-6
+* PDFN3333
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
