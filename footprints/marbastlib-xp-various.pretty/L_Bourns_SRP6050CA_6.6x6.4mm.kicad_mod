@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "L_Bourns_SRP6050CA_6.6x6.4mm"
+	(property "Value" "L_Bourns_SRP6050CA"
 		(at 0 4.5 0)
 		(layer "F.Fab")
 		(uuid "ec081f16-36d3-4b36-906d-fd6b0cd5b568")
