@@ -192,6 +192,9 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
+* L_Bourns_SRP6050CA_6.6x6.4mm - footprint for [Borns SRP6050CA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6050CA-1R0M_C2047688.html) high power inductors
+* L_Bourns_SRP6060FA_6.6x6.4mm - footprint for [Borns SRP6060FA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6060FA-150M_C2047415.html) high power inductors
+* L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * MAX77751 - a 1S LiIon battery management chip
 * QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
@@ -237,6 +240,9 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Liatris (source: splitkb)
 * JST BM02B-ACHSS (source: JST)
 * Monolithic Power MP2722
+* Bourns_SRP6050CA
+* Bourns_SRP6060FA
+* Cenker_CKST353220
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
 * WS2812 Mini / SK6812 Mini ([source](https://grabcad.com/library/smd-ws2812b-led-1))
 * JST SH (2, 4, 5, 6, 7, 8, 13 pins) ([source](https://grabcad.com/library/jst-sh-smd-connectors-1/details?folder_id=3903823))
