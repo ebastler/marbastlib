@@ -1,20 +1,26 @@
 # marbastlib
-A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). The latest release is made in/for KiCAD 8.0 stable version. Older releases are still offered for KiCAD 7.0 stable versions by the PCM. Older versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCAD 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCAD-keyboard-parts.pretty) for KiCAD 5.x.
+A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). Huge thanks to all of our users who test new footprints and notify us about bugs or issues and of course to our [awesome contributors](https://github.com/ebastler/marbastlib/graphs/contributors) who commit components of their own!
+
+The current latest release is made in/for KiCad 8.0 stable version. Older releases are still offered for KiCad 7.0 stable versions by the PCM but may lack components and/or bugfixes as no features or fixes are being backported. Older KiCad versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCad 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCad-keyboard-parts.pretty) for KiCad 5.x.
 
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - the PCM version will automatically download everything in the right file paths.
 
-## How to install
-Open the KiCAD "Plugin and Content Manager" (referred to as "PCM" from now on) and click on "Manage". Add a new entry with the plus sign and paste 
-
-```
-https://raw.githubusercontent.com/ebastler/ebastler-KiCAD-repository/main/repository.json
-```
-
-From this point on you will have "ebastler KiCAD repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
-
-![repolist](resources/repolist.png)
+## Disclaimer
 
 ### **We do not assume any responsibility for broken PCBs or damages derived from errors in this library. Use at your own risk, and please open an issue or pull-request if you encounter any errors.**
+
+Please do not use any footprint from this library with a symbol from another library (or the other way round). Pin numbering conventions are not always the same, and unless you check very carefully this can lead to broken PCBs.
+
+## How to install
+Open the KiCad "Plugin and Content Manager" (referred to as "PCM" from now on) and click on "Manage". Add a new entry with the plus sign and paste 
+
+```
+https://raw.githubusercontent.com/ebastler/ebastler-KiCad-repository/main/repository.json
+```
+
+From this point on you will have "ebastler KiCad repository" in your drop-down selection, and it will allow you to install (and update) marbastlib through PCM - easy and hassle-free.
+
+![repolist](resources/repolist.png)
 
 
 ## Symbol Libs
@@ -158,7 +164,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_HytePro M411P - footprint for a [HytePro M411P](https://www.hyte.pro/product/m411p.html) 4pin magnetic pogo pin connectors (male and female footprints available)
-* CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCAD lib's ACH footprint with pre-assigned 3d model
+* CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCad lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
 * XUNPU_FPC-05F-**PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector (16/20/24 pin in library)
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
@@ -166,13 +172,13 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
 * PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
-* ROT_Alps_EC11E-Switch - Improved version of the original KiCAD EC11E footprint with pre-assigned 3d model
+* ROT_Alps_EC11E-Switch - Improved version of the original KiCad EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
 * SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
-* SW_SPST_SKQG_WithStem - copy of the default KiCAD lib's SKQG footprint, but with rounded pads and pre-assigned 3d model
+* SW_SPST_SKQG_WithStem - copy of the default KiCad lib's SKQG footprint, but with rounded pads and pre-assigned 3d model
 * SW_T1A2QR - footprint for the Diptronics T1A2QR SMD pushbutton
 * SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
@@ -233,7 +239,7 @@ These footprints use some (rather cryptic) naming schemes to differentiate vario
 
 
 ## 3D Models
-Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
+Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. These models are covered by the repository license. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
 
 * SK6812Mini-E
 * WS2812B-2020
