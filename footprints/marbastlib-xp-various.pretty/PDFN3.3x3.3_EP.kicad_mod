@@ -234,7 +234,7 @@
 		(roundrect_rratio 0.02)
 		(uuid "fe43d978-c2df-4bbf-8e41-cbac65f074de")
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/3dmodels/PDFN3.3x3.3.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/PDFN3.3x3.3.step"
 		(offset
 			(xyz 0 0 0)
 		)
