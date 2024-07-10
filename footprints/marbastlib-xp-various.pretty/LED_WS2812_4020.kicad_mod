@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -245,7 +248,7 @@
 			"a8d3561b-ec67-4aa7-8821-fd6e60f5d3ee" "bb080cda-87ce-4999-b0dd-d5f2662a5bb6"
 		)
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812-4020.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_WS2812_4020.step"
 		(offset
 			(xyz 0 -1.1 0)
 		)
