@@ -10,11 +10,12 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'CON_781710004.step',
-/* time_stamp */ '2023-07-07T00:31:17+02:00',
+/* time_stamp */ '2024-07-13T16:59:02+02:00',
 /* author */ (''),
 /* organization */ (''),
-/* preprocessor_version */ 'ST-DEVELOPER v19.2',
-/* originating_system */ 'Autodesk Translation Framework v12.6.0.85',
+/* preprocessor_version */ 'ST-DEVELOPER v20',
+/* originating_system */ 'Autodesk Translation Framework v13.14.0.145',
+
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -7282,18 +7283,19 @@ SOLID_ANGLE_UNIT()
 #7176=SURFACE_STYLE_FILL_AREA(#7180);
 #7177=SURFACE_STYLE_FILL_AREA(#7181);
 #7178=FILL_AREA_STYLE('Steel - Satin',(#7182));
-#7179=FILL_AREA_STYLE('ABS (White)',(#7183));
-#7180=FILL_AREA_STYLE('Gold - Polished',(#7184));
-#7181=FILL_AREA_STYLE('Stainless Steel - Satin',(#7185));
+#7179=FILL_AREA_STYLE('kicad-connector_black',(#7183));
+#7180=FILL_AREA_STYLE('kicad-pins_gold',(#7184));
+#7181=FILL_AREA_STYLE('kicad-pins_silver',(#7185));
 #7182=FILL_AREA_STYLE_COLOUR('Steel - Satin',#7186);
-#7183=FILL_AREA_STYLE_COLOUR('ABS (White)',#7187);
-#7184=FILL_AREA_STYLE_COLOUR('Gold - Polished',#7188);
-#7185=FILL_AREA_STYLE_COLOUR('Stainless Steel - Satin',#7189);
+#7183=FILL_AREA_STYLE_COLOUR('kicad-connector_black',#7187);
+#7184=FILL_AREA_STYLE_COLOUR('kicad-pins_gold',#7188);
+#7185=FILL_AREA_STYLE_COLOUR('kicad-pins_silver',#7189);
 #7186=COLOUR_RGB('Steel - Satin',0.627450980392157,0.627450980392157,0.627450980392157);
-#7187=COLOUR_RGB('ABS (White)',0.137254901960784,0.137254901960784,0.137254901960784);
-#7188=COLOUR_RGB('Gold - Polished',0.956862745098039,0.898039215686275,
-0.654901960784314);
-#7189=COLOUR_RGB('Stainless Steel - Satin',0.796078431372549,0.796078431372549,
-0.796078431372549);
+#7187=COLOUR_RGB('kicad-connector_black',0.145098039215686,0.141176470588235,
+0.141176470588235);
+#7188=COLOUR_RGB('kicad-pins_gold',0.858823529411765,0.737254901960784,
+0.494117647058824);
+#7189=COLOUR_RGB('kicad-pins_silver',0.823529411764706,0.819607843137255,
+0.780392156862745);
 ENDSEC;
 END-ISO-10303-21;
