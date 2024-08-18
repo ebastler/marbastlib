@@ -90,6 +90,7 @@ From this point on you will have "ebastler KiCad repository" in your drop-down s
 * nice_nano - symbol for nicekeyboards nice!nano Bluetooth controller
 * seeeduino Xiao nRF52840 - symbol for Seeed Studio Xiao nRF52840 Bluetooth controller
 * seeeduino Xiao rp2040 - symbol for Seeed Studio Xiao rp2040 controller
+* RP2040-Matrix - symbol for a Waveshare rp2040 based controller board with 25 pixel WS2812 LED matrix
 
 ## Footprint libs
 Unlike previous versions of marbastlib, were `main`, `untested` and `specialty` were separate libraries, now all footprints were merged into a single repository, but separate libraries. `marbastlib-choc` (to pick one example) is the new equivalent to `main`/`stable`, while `marbastlib-xp-choc` ("xp" stands for "experimental", but also makes sure the xp libs end up on the bottom of the list) join `specialty` and `untested` into one library. Please use anything in a "xp" library with special care, and report back to us once a footprint in such a lib has been successfully tested, so it can be moved into the regular libs.
@@ -236,7 +237,7 @@ These footprints use some (rather cryptic) naming schemes to differentiate vario
 * nice_nano - footprints for nicekeyboards nice!nano Bluetooth controller
 * seeeduino Xiao nRF52840 - footprints for Seeed Studio Xiao nRF52840 Bluetooth controller
 * seeeduino Xiao rp2040 - footprints for Seeed Studio Xiao rp2040 controller
-
+* RP2040-Matrix - footprints for a Waveshare rp2040 based controller board with 25 pixel WS2812 LED matrix
 
 ## 3D Models
 Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. These models are covered by the repository license. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
@@ -261,6 +262,7 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Cenker_CKST353220
 * U-DFN2020-6
 * PDFN3333
+* RP2040-Matrix
 * HC-PBB40C-10DP-0.4V-02
 * HC-PBB40C-10DS-0.4V-2.0-02 (source: easyEDA component library)
 * Skyloon Hotswap-Encoder ([thanks, Rinh!](https://grabcad.com/library/skyloong-hot-swappable-knob-module-1))
