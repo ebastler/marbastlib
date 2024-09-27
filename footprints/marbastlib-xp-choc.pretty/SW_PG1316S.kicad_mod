@@ -1,0 +1,227 @@
+(footprint "SW_PG1316S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for Kailh PG1316S low profile switch")
+	(tags "Kailh PG1316 Switch")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "484cd1bf-c1c8-49bf-828c-f505f306885d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PG1316S"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f13fe93f-d913-4c9d-bfef-8f9b132f662b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f81de197-d61a-4015-a435-04f21cb61760")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1751acd-816f-4b1a-b4bb-2e53ed6007de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83ca2a95-f575-40bf-9329-52fce91aa8cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9 -8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2b4f106b-a90d-4679-bf90-70e81ee88c48")
+	)
+	(fp_rect
+		(start -1 -3.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "6698fabd-7378-4b8f-ab40-ff835dcf031a")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "336e144f-3ced-4638-91bb-34c198a894c1")
+	)
+	(fp_rect
+		(start -6.8 -6.8)
+		(end 6.8 6.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4b6138eb-6d4f-4f31-b9a8-82c931713bb2")
+	)
+	(fp_text user "18 x 17"
+		(at 7.6 -8.1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "c63e7ae3-b930-468e-87c3-7f9a6641ecc5")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "RGB LED"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "ff039548-4b06-43a6-b37c-b5a237631f5f")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "19.05 x 19.05"
+		(at 7.2 -9.9 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "90757d58-42b5-4597-b6f5-3219b33e4256")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "73e2abc2-4234-41dd-91f3-af61f0fc657f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.8 2.75)
+		(size 1.05 1.05)
+		(drill 1.05)
+		(layers "*.Mask")
+		(uuid "76ce3cc3-653b-43bc-bb25-4ed7bbaa8494")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.8 -2.75)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "*.Mask")
+		(uuid "6a1d1f37-dd13-44df-a280-9c585a82b0bb")
+	)
+	(pad "1" smd rect
+		(at -2.5 2.65)
+		(size 1.55 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "aa165841-5945-4560-b4a8-8f78656a0744")
+	)
+	(pad "2" smd rect
+		(at 2.5 2.65)
+		(size 1.55 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d65db456-0d99-499b-b5f7-0b53b6ac3cf9")
+	)
+	(pad "MP" smd rect
+		(at -6.35 -6)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "39380f55-eb80-41b6-a9be-2c72eb20e136")
+	)
+	(pad "MP" smd rect
+		(at -6.35 6)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d890a471-1477-4a67-8089-da002a0b92c5")
+	)
+	(pad "MP" smd rect
+		(at 6.35 -6)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4ad9dac9-d0d7-4b8f-bf67-721ccd90c1b5")
+	)
+	(pad "MP" smd rect
+		(at 6.35 6)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7a9e854a-3cd6-481d-b6e9-57f1448615b2")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_MX6C-K3NB.step"
+		(offset
+			(xyz -5.46 -0.033 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
