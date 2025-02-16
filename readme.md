@@ -48,6 +48,9 @@ From this point on you will have "ebastler KiCad repository" in your drop-down s
 * KS33_LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * KS33_LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 
+### marbastlib-he
+* SW_MX_HE - symbol for Gateron Magnetic Jade and compatible (MX style) hall effect switches with SOT-23-3 hall effect sensors. Defaults to HAL9303SO
+
 ### marbastlib-various
 * AP2317QD - 3.3x3.3mm DFN8 dual power MOSFET. [Datasheet](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
 * BAV70_Small - a smaller version of the regular BAV70 symbol (easier to use in keyboard matrices)
@@ -140,6 +143,11 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_MX_ULP_1u - solder-footprints for Cherry MX ultra low profile switches
 * SW_MX_ULP_1u_handsolder - experimental handsolder-footprints for Cherry MX ultra low profile switches
 
+### marbastlib-he
+
+### marbastlib-xp-he
+* SW_MX_HE_0deg/90deg/180deg/270deg - footprints for Gateron Magnetic Jade and compatible HE switches with SOT-23-3 sensors
+
 
 ### marbastlib-hitek
 Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or similarly uncommon shapes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed.
@@ -168,6 +176,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCad lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
 * XUNPU_FPC-05F-**PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector (16/20/24 pin in library)
+* XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
@@ -199,7 +208,6 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * ANT_2.4_IFA - Bluetooth IFA antenna, designed following a guide of Cypress: https://www.cypress.com/file/136236/download'
 * CON_MJ-4PP-9 - footprint for a 3.5mm TRRS connector
 * CON_MJ-4PP-9_Reversible - reversible footprint for a 3.5mm TRRS connector
-* XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
 * Diodes_UDFN2020-6_Type-F - footprint for [DMP1022UFDF](https://datasheet.lcsc.com/lcsc/1806082142_Diodes-Incorporated-DMP1022UFDF-7_C155358.pdf) (copy of KiCad default footprint with preassigned 3d model)
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED

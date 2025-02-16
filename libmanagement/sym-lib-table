@@ -5,4 +5,5 @@
   (lib (name "WIP_marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/../symbols/marbastlib-various.kicad_sym")(options "")(descr ""))
   (lib (name "WIP_marbastlib-promicroish")(type "KiCad")(uri "${KIPRJMOD}/../symbols/marbastlib-promicroish.kicad_sym")(options "")(descr ""))
   (lib (name "WIP_marbastlib-gateron_lp")(type "KiCad")(uri "${KIPRJMOD}/../symbols/marbastlib-gateron_lp.kicad_sym")(options "")(descr ""))
+  (lib (name "WIP_marbastlib-he")(type "KiCad")(uri "${KIPRJMOD}/../symbols/marbastlib-he.kicad_sym")(options "")(descr ""))
 )
