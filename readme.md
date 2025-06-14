@@ -1,7 +1,7 @@
 # marbastlib
 A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [MarvFPV](https://github.com/marvfpv). Huge thanks to all of our users who test new footprints and notify us about bugs or issues and of course to our [awesome contributors](https://github.com/ebastler/marbastlib/graphs/contributors) who commit components of their own!
 
-The current latest release is made in/for KiCad 8.0 stable version. Older releases are still offered for KiCad 7.0 stable versions by the PCM but may lack components and/or bugfixes as no features or fixes are being backported. Older KiCad versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCad 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCad-keyboard-parts.pretty) for KiCad 5.x.
+The current latest release is made in/for KiCad 9.0 stable version. Older releases are still offered for KiCad 8.0 and 7.0 stable versions by the PCM but may lack components and/or bugfixes as no features or fixes are being backported. Older KiCad versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCad 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCad-keyboard-parts.pretty) for KiCad 5.x.
 
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - the PCM version will automatically download everything in the right file paths.
 
@@ -144,10 +144,9 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_MX_ULP_1u_handsolder - experimental handsolder-footprints for Cherry MX ultra low profile switches
 
 ### marbastlib-he
-
-### marbastlib-xp-he
 * SW_MX_HE_0deg/90deg/180deg/270deg - footprints for Gateron Magnetic Jade and compatible HE switches with SOT-23-3 sensors
 
+### marbastlib-xp-he
 
 ### marbastlib-hitek
 Since all stabs are plate-mount, only switch footprints are included. No dedicated footprints are available for ISO enter or similarly uncommon shapes. Use a `marbastlib-mx.pretty` stab footprint for alignment help if needed.
@@ -180,7 +179,13 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
+* L_Bourns_SRP6050CA_6.6x6.4mm - footprint for [Borns SRP6050CA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6050CA-1R0M_C2047688.html) high power inductors
+* L_Bourns_SRP6060FA_6.6x6.4mm - footprint for [Borns SRP6060FA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6060FA-150M_C2047415.html) high power inductors
+* L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
+* PDFN3.3x3.3-8L_2 - footprint for 3.3x3.3mm DFN8 dual power MOSFETs like [AP2317QD](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
+* QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
+* QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCad EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
@@ -211,16 +216,10 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * Diodes_UDFN2020-6_Type-F - footprint for [DMP1022UFDF](https://datasheet.lcsc.com/lcsc/1806082142_Diodes-Incorporated-DMP1022UFDF-7_C155358.pdf) (copy of KiCad default footprint with preassigned 3d model)
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
-* L_Bourns_SRP6050CA_6.6x6.4mm - footprint for [Borns SRP6050CA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6050CA-1R0M_C2047688.html) high power inductors
-* L_Bourns_SRP6060FA_6.6x6.4mm - footprint for [Borns SRP6060FA](https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRP6060FA-150M_C2047415.html) high power inductors
-* L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * MAX77751 - a 1S LiIon battery management chip
 * HC-PBB40C-10DP-0.4V-02 - Mezzanine-style 10 pin board-to-board connector. Various mating heights available. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DP-0-4V-02_C19089226.html)
 * HC-PBB40C-10DS-0.4V-2.0-02 - Mezzanine-style 10 pin board-to-board connector. 2mm mating height. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DS-0-4V-2-0-02_C19089252.html)
 * PDFN3.3x3.3_EP - footprint for 3.3x3.3mm DFN8 power MOSFETs like [WSD4070DN](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008211234_Winsok-Semicon-WSD4070DN_C719095.pdf)
-* PDFN3.3x3.3-8L_2 - footprint for 3.3x3.3mm DFN8 dual power MOSFETs like [AP2317QD](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
-* QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
-* QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
