@@ -24,7 +24,7 @@
     "versions": [{
         "version": "VERSION_HERE",
         "status": "testing",
-        "kicad_version": "8.0",
+        "kicad_version": "9.0",
         "download_sha256": "SHA256_HERE",
         "download_size": DOWNLOAD_SIZE_HERE,
         "download_url": "DOWNLOAD_URL_HERE",
