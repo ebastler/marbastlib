@@ -1,7 +1,7 @@
 (footprint "SW_choc_v1_HS_CPG135001S30_2.25u"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Hotswap footprint for Kailh Choc style switches")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "66728c69-b83c-49a9-b373-23cf176c621e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -141,7 +129,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "f010e17f-8668-49ee-b852-ea7fad59c9ff")
 	)
@@ -152,7 +140,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "055fc913-6ec1-40c2-9036-206504d8b549")
 	)
@@ -163,7 +151,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Eco1.User")
 		(uuid "2ea8093a-7139-4871-8e96-62161bb3936d")
 	)
@@ -258,7 +246,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "e1b4fc82-20d0-4099-9c6a-42c937cf0c24")
 	)
@@ -710,6 +698,7 @@
 		(at 5 3.75)
 		(size 3.3 3.3)
 		(drill 3)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "85ee64db-7b4c-4fb7-9187-390429b8f734")
@@ -723,14 +712,14 @@
 	(pad "1" smd roundrect
 		(at 8.245 3.75)
 		(size 2.65 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "7bca7e8e-9fb9-4379-93cd-7563fac7440f")
 	)
 	(pad "2" smd roundrect
 		(at -3.245 5.95)
 		(size 2.65 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "bdea63f8-971a-4b66-83c5-e6b1c73f4c0a")
 	)
@@ -744,10 +733,12 @@
 		(at 0 5.95)
 		(size 3.3 3.3)
 		(drill 3)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c486791e-f839-4b9d-b468-46263a99d648")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 		(offset
 			(xyz -5 -3.75 0.12)
