@@ -59,7 +59,8 @@ From this point on you will have "ebastler KiCad repository" in your drop-down s
 * FS8205 - a dual MOSFET used in the DW01A ref implementation
 * FE1.1 - a 4 port USB 2.0 High-Speed (480 Mbit/s) hub with multiple transaction translator
 * FUSB303B - a standalone USB Type-C dual role port controller with I2C and GPIO control
-* IS31FL3741A - a 39x9 LED multiplex driver
+* IS31FL3741A - a 39x9 i2c LED multiplex driver
+* AW20216SQNR - a 18x12 SPI LED multiplex driver
 * joystick_analog - symbol for a analog, dual pot thumbstick, comes pre-assigned with a PSP-1000 thumbstick footprint
 * LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
 * LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
@@ -187,6 +188,7 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
 * QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
 * QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
+* QFN-44_EP_5x5_Pitch0.4mm - footprint needed for AW20216SQNR
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCad EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
