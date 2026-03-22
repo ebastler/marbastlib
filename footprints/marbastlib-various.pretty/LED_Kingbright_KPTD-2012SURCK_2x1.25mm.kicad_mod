@@ -1,0 +1,211 @@
+(footprint "LED_Kingbright_KPTD-2012SURCK_2x1.25mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "088920a5-e286-4d7b-b920-a5152b7b5b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Kingbright_KPTD-2012SURCK_2x1.25mm"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(uuid "aa2bf615-0521-4bf6-b623-3b510f27fa11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://kingbright-europe.de/wp-content/uploads/2017/04/KPTD-2012SURCKVer.2A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5191c95-4d04-4868-a976-e0838ea56500")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "612df82f-3530-49ac-81af-729ee1f71db2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.85)
+		(end -1.6 0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8962c41d-989c-4614-85f5-e850c4ad9cf9")
+	)
+	(fp_line
+		(start -1.6 0.85)
+		(end 1 0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d326955e-7cf9-4c0e-95bc-ceb3308d31ea")
+	)
+	(fp_line
+		(start 1 -0.85)
+		(end -1.6 -0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "737895e8-dea6-43ff-869d-1bd66b940a52")
+	)
+	(fp_line
+		(start -1.6 -0.85)
+		(end 1.55 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1af3319-f276-4438-b150-5bd000d80870")
+	)
+	(fp_line
+		(start -1.6 0.85)
+		(end -1.6 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaf0d262-7f1e-453f-8c0b-6bad78368d51")
+	)
+	(fp_line
+		(start 1.55 -0.85)
+		(end 1.55 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b74afd7-fccf-47c1-8d4a-ea01a2d85265")
+	)
+	(fp_line
+		(start 1.55 0.85)
+		(end -1.6 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fbca5f1-3782-49bf-8ca5-4f2848be825c")
+	)
+	(fp_line
+		(start -1 -0.3)
+		(end -1 0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a65cca9-2913-451a-8fbd-62ed3c3c0a63")
+	)
+	(fp_line
+		(start -1 0.525)
+		(end 1 0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f589b37-4d93-4029-9cb6-25768d7ffd4c")
+	)
+	(fp_line
+		(start -0.775 -0.525)
+		(end -1 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b28b9eb3-40d8-4fac-8ce0-03b606ac2c1b")
+	)
+	(fp_line
+		(start 1 -0.525)
+		(end -0.775 -0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2562f0ef-b0ac-49dd-8355-eec8942253ab")
+	)
+	(fp_line
+		(start 1 0.525)
+		(end 1 -0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "430127f8-b1e2-4638-a5d9-329594f1b15c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2d6fc81-37b9-4b57-a0e2-7d55a0ecc3e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "75cf836a-ac0d-4a73-9960-b97c74709a06")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "78547838-7c47-49d1-b959-a1c5efea4452")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

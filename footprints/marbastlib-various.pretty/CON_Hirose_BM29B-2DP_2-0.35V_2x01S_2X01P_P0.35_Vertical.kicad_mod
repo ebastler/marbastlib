@@ -1,0 +1,256 @@
+(footprint "CON_Hirose_BM29B-2DP_2-0.35V_2x01S_2X01P_P0.35_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Hirose BM29 series connector, BM29B-2DP/2-0.35V (https://www.hirose.com/en/product/p/CL0673-7002-0-51)")
+	(tags "connector Hirose 4pin plug vertical")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "af477f9a-4a4c-4afe-9d46-0db8376bfcea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CON_Hirose_BM29B-2DP_2-0.35V_2x01S_2X01P_P0.35_Vertical"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "eadd6c39-9626-4ac2-96d4-629db9e43f9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "997af252-6ee6-46d2-bef7-d489efdb3084")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b85ee8f-e71a-43f6-a1e5-d2bc1fc6674f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.055 -0.605)
+		(end -1.055 0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33e9b63f-b7f1-4320-876f-edb9ac5123e1")
+	)
+	(fp_line
+		(start -1.055 -0.605)
+		(end -0.705 -0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c1db090-5604-4afb-95c0-7a6926f41bba")
+	)
+	(fp_line
+		(start -1.055 0.605)
+		(end -0.705 0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efbf018b-f19f-4628-85b1-e62b80edb0a1")
+	)
+	(fp_line
+		(start -0.385 1)
+		(end -0.585 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06a1a136-efe3-4ecb-9890-fa0ea75ce450")
+	)
+	(fp_line
+		(start -0.185 1.2)
+		(end -0.585 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a5fc036-579f-4af4-80d6-e1d95b3252e8")
+	)
+	(fp_line
+		(start -0.185 1.2)
+		(end -0.385 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83a5db4f-97af-4e24-ac8b-472db28b1f7a")
+	)
+	(fp_line
+		(start 1.045 -0.605)
+		(end 0.695 -0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efb3fa85-ff34-43a6-801b-35a0b8e892fd")
+	)
+	(fp_line
+		(start 1.045 0.605)
+		(end 0.695 0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77ae5d08-2d7a-4b6e-b4ad-b5aca5e3bf33")
+	)
+	(fp_line
+		(start 1.045 0.605)
+		(end 1.045 -0.605)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eeff0dd6-c9ac-4c0f-9fa3-502e71e70350")
+	)
+	(fp_rect
+		(start -1.15 -0.9)
+		(end 1.15 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9db5e998-2fce-4ec1-bd84-e4f0dec24bf5")
+	)
+	(fp_line
+		(start -0.585 -0.455)
+		(end -0.385 -0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc2c65c4-aeda-4546-bba0-2919b9d6e8da")
+	)
+	(fp_line
+		(start -0.385 -0.165)
+		(end -0.185 -0.455)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ebcd0e0-e007-4dba-a65c-1a56e7828b36")
+	)
+	(fp_rect
+		(start -0.905 -0.455)
+		(end 0.905 0.455)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0b74c5cc-9ab9-499f-913b-3713e2573755")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a80fcd99-0747-4bd6-ad72-28bf65cf4567")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.385 -0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12)
+		(uuid "c6866858-b92b-4507-9c90-c32120c60c26")
+	)
+	(pad "1" smd roundrect
+		(at -0.385 0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12)
+		(uuid "1af3868a-feac-4c5f-9611-5b80c1781eee")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.54)
+		(size 0.18 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "46f6e77c-233b-4203-8b0a-3b00a6ab91b2")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.54)
+		(size 0.18 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "c8c25bb9-229a-46df-8f54-bca8f2d8ac89")
+	)
+	(pad "4" smd roundrect
+		(at 0.385 -0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12)
+		(uuid "e4736bfa-6c33-48ee-a8e2-c16902ac5337")
+	)
+	(pad "4" smd roundrect
+		(at 0.385 0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12)
+		(uuid "4e9becdb-2284-4190-afe1-b3a0592f0136")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Hirose_BM29B-2DP_2-0.35V_2x01S_2X01P_P0.35_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

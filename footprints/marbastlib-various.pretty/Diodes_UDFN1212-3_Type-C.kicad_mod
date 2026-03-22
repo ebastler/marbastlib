@@ -1,0 +1,221 @@
+(footprint "Diodes_UDFN1212-3_Type-C"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Footprint for Diodes U-DFN1212-3 (Type C) package")
+	(tags "UDFN1212-3 (Type-C)")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "f98b5d48-fb78-4da6-a48d-1cac08a406f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diodes_UDFN1212-3_Type-C"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "f4f54895-fb16-4708-880e-b7a047ab74a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/package/view/564.info"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2aed246-e2f2-48d6-96d4-a29a27390f7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc90fe63-4b39-4bf4-869c-dfb135bd06c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.6 0.725)
+		(end -0.6 0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f7324d-fbd6-47f8-860f-57b05da3444b")
+	)
+	(fp_line
+		(start 0.625 -0.725)
+		(end -0.325 -0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad26a50b-6036-4682-b7c9-3b129173116d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.525 -0.725) (xy -0.805 -0.725) (xy -0.525 -1.005) (xy -0.525 -0.725)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f71aea91-c4f8-4f20-a202-f031487aa9b8")
+	)
+	(fp_rect
+		(start -0.9 -0.8)
+		(end 0.9 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58531f40-f926-4857-9b65-f92982af3b6c")
+	)
+	(fp_line
+		(start -0.625 0.625)
+		(end -0.625 -0.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "476a42c1-21db-4dd3-8beb-5ab7b46a3fbc")
+	)
+	(fp_line
+		(start -0.325 -0.625)
+		(end -0.625 -0.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c936fd8-d4cb-436b-859b-c19cfaefbe2c")
+	)
+	(fp_line
+		(start -0.325 -0.625)
+		(end 0.625 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0445710-57f2-48fb-882c-d19ce15fbb1e")
+	)
+	(fp_line
+		(start 0.625 -0.625)
+		(end 0.625 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b64e9d8-c9ed-4d9c-85f4-322d4ff1d205")
+	)
+	(fp_line
+		(start 0.625 0.625)
+		(end -0.625 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37124b6e-62eb-47f7-b71d-062a2b47eb91")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(uuid "59969ac2-b8d1-4919-aa3d-7dded114e0c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.525 -0.4)
+		(size 0.45 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09375)
+		(uuid "6b0d32cf-be01-4bca-ba5a-06ef8fa1fb8b")
+	)
+	(pad "2" smd roundrect
+		(at -0.525 0.4)
+		(size 0.45 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09375)
+		(uuid "6f0bb732-b5ee-465d-bc48-12a6cb625e4d")
+	)
+	(pad "3" smd custom
+		(at 0.2 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.495) (xy -0.297716 -0.506481) (xy -0.291213 -0.516213) (xy -0.281481 -0.522716) (xy -0.27 -0.525)
+					(xy 0.27 -0.525) (xy 0.281481 -0.522716) (xy 0.291213 -0.516213) (xy 0.297716 -0.506481) (xy 0.3 -0.495)
+					(xy 0.3 0.495) (xy 0.297716 0.506481) (xy 0.291213 0.516213) (xy 0.281481 0.522716) (xy 0.27 0.525)
+					(xy -0.27 0.525) (xy -0.281481 0.522716) (xy -0.291213 0.516213) (xy -0.297716 0.506481) (xy -0.3 0.495)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.2 -0.23) (xy 0.202284 -0.241481) (xy 0.208787 -0.251213) (xy 0.218519 -0.257716) (xy 0.23 -0.26)
+					(xy 0.52 -0.26) (xy 0.531481 -0.257716) (xy 0.541213 -0.251213) (xy 0.547716 -0.241481) (xy 0.55 -0.23)
+					(xy 0.55 0.23) (xy 0.547716 0.241481) (xy 0.541213 0.251213) (xy 0.531481 0.257716) (xy 0.52 0.26)
+					(xy 0.23 0.26) (xy 0.218519 0.257716) (xy 0.208787 0.251213) (xy 0.202284 0.241481) (xy 0.2 0.23)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d5fa70c8-217a-4436-9c98-d6bfed30a485")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Diodes_UDFN1212-3_Type-C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

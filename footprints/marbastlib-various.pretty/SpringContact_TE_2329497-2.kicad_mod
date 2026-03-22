@@ -1,0 +1,176 @@
+(footprint "SpringContact_TE_2329497-2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Ultra Small - C-Clip Spring Contact, .75 mm [.03 in] High, Side Protected, 1.15 mm [.045 in] Uncompressed Height, 2.7 mm [.106 in] Length")
+	(tags "spring contact emi emc shield")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "55197853-2bf6-4a3b-bb1e-ccb11f2306bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SpringContact_TE_2329497-2"
+		(at 0 1.25 0)
+		(layer "F.Fab")
+		(uuid "4aab81e2-db3c-4818-af2d-5ab8bc539d18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/en/product-2329497-2.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fb6689a-ac5a-4c84-a9bd-3965633cc2fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dded148-bb21-452b-9d65-6b48056c0e40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.8 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7499671c-a13c-4f91-9e43-d71d6be5a8cd")
+	)
+	(fp_rect
+		(start -1.7 -0.9)
+		(end 1.9 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb01cf3b-1db9-4449-b79f-c21f9683f493")
+	)
+	(fp_rect
+		(start -1.245 -0.5)
+		(end 1.455 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "829e29cb-0c77-45bf-8eb8-79cba124c226")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0b3d88d0-bcc6-4d03-8d47-bf6584cee0d0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0.645 0)
+		(size 0.94 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.47 -0.53413) (xy -0.466889 -0.54977) (xy -0.458029 -0.563029) (xy -0.44477 -0.571889) (xy -0.42913 -0.575)
+					(xy 0.42913 -0.575) (xy 0.44477 -0.571889) (xy 0.458029 -0.563029) (xy 0.466889 -0.54977) (xy 0.47 -0.53413)
+					(xy 0.47 0.53413) (xy 0.466889 0.54977) (xy 0.458029 0.563029) (xy 0.44477 0.571889) (xy 0.42913 0.575)
+					(xy -0.42913 0.575) (xy -0.44477 0.571889) (xy -0.458029 0.563029) (xy -0.466889 0.54977) (xy -0.47 0.53413)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start -0.47 -0.515)
+						(mid -0.513934 -0.408934)
+						(end -0.62 -0.365)
+					)
+					(arc
+						(start -0.67 -0.365)
+						(mid -0.776066 -0.408934)
+						(end -0.82 -0.515)
+					)
+					(xy -1.441194 -0.515) (xy -1.441194 0.515)
+					(arc
+						(start -0.82 0.515)
+						(mid -0.776066 0.408934)
+						(end -0.67 0.365)
+					)
+					(arc
+						(start -0.62 0.365)
+						(mid -0.513934 0.408934)
+						(end -0.47 0.515)
+					)
+					(xy 0.151194 0.515) (xy 0.151194 -0.515)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.97 -0.525) (xy -1.966194 -0.544134) (xy -1.955355 -0.560355) (xy -1.939134 -0.571194) (xy -1.92 -0.575)
+					(xy -0.87 -0.575) (xy -0.850866 -0.571194) (xy -0.834645 -0.560355) (xy -0.823806 -0.544134) (xy -0.82 -0.525)
+					(xy -0.82 0.525) (xy -0.823806 0.544134) (xy -0.834645 0.560355) (xy -0.850866 0.571194) (xy -0.87 0.575)
+					(xy -1.92 0.575) (xy -1.939134 0.571194) (xy -1.955355 0.560355) (xy -1.966194 0.544134) (xy -1.97 0.525)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "69de9501-3063-4569-ac77-891d232b41f0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SpringContact_TE_2329497-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

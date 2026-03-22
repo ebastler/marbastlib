@@ -1,0 +1,274 @@
+(footprint "CON_Hirose_BM29B0.6-2DS_2-0.35V_2x01S_2X01P_P0.35_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Hirose BM29 series connector, BM29B0.6/2DS_2-0.35V (https://www.hirose.com/en/product/p/CL0673-7001-0-51)")
+	(tags "connector Hirose 4pin receptacle vertical")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "3bbaaf7a-e320-47f0-b02c-3e48b97a41ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CON_Hirose_BM29B0.6-2DS_2-0.35V_2x01S_2X01P_P0.35_Vertical"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "494c83e6-996c-4970-ad16-026b8283c4d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea1a2d7-3ada-4a3b-b04f-064cdbc0a0a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9593ef44-163c-4081-93c2-b76a474cf81f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.44 -0.75)
+		(end -1.44 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7289ff6f-9598-4a3d-9729-e86968a7dd7e")
+	)
+	(fp_line
+		(start -1.24 -1.35)
+		(end -1.04 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b77fd2e6-23f8-4ac0-80c0-d92a6060c2db")
+	)
+	(fp_line
+		(start -1.24 -1.35)
+		(end -0.84 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6928e0f-74a5-418c-9be5-0bab03d5d98a")
+	)
+	(fp_line
+		(start -1.04 -1.15)
+		(end -0.84 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd41ace6-15e6-4ccc-9f05-62a0ae367dba")
+	)
+	(fp_line
+		(start 1.46 -0.75)
+		(end 1.46 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6920ad36-5123-483b-8e86-e15c896b9ce6")
+	)
+	(fp_rect
+		(start -1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48e5061a-6e6c-42b6-9349-2a33751c3e42")
+	)
+	(fp_line
+		(start -1.23 -0.74)
+		(end -1.03 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9290568a-7e8f-45ec-88e7-e7a9f7c57ec8")
+	)
+	(fp_line
+		(start -1.03 -0.45)
+		(end -0.83 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cca72f02-6a57-4ab7-895d-f1a2fa663810")
+	)
+	(fp_rect
+		(start -1.23 -0.74)
+		(end 1.23 0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dc5a156a-34ef-404b-b0d9-7b473abb6697")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f15f49b9-e974-4f1a-8d2f-68403efd09bd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.04 -0.7)
+		(size 0.3 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9b90ecec-1f1f-4555-b73f-e4a94c365065")
+	)
+	(pad "1" smd roundrect
+		(at -1.04 0.7)
+		(size 0.3 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "8e7dcea1-3ba7-49b3-82c9-135071084390")
+	)
+	(pad "1" smd roundrect
+		(at -0.49 -0.75)
+		(size 0.46 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "6c44e1da-b0f9-4b33-b8c5-4f428417f29c")
+	)
+	(pad "1" smd roundrect
+		(at -0.49 0.75)
+		(size 0.46 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "1afbfd64-dafd-496b-91d2-0b742d2f8a6a")
+	)
+	(pad "2" smd roundrect
+		(at 0 -0.75)
+		(size 0.18 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "e8cc3533-1878-4d1c-bb1a-09dc570bbbfd")
+	)
+	(pad "3" smd roundrect
+		(at 0 0.75)
+		(size 0.18 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "90587039-9470-4cec-80a2-326a0028e895")
+	)
+	(pad "4" smd roundrect
+		(at 0.49 -0.75)
+		(size 0.46 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "8f926e3c-52bf-4f49-bf68-4e6981c489ba")
+	)
+	(pad "4" smd roundrect
+		(at 0.49 0.75)
+		(size 0.46 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "3f081b3a-0760-4663-a6cc-4498c1549eae")
+	)
+	(pad "4" smd roundrect
+		(at 1.04 -0.7)
+		(size 0.3 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "38300844-231c-4e8b-9880-801a4f6ad489")
+	)
+	(pad "4" smd roundrect
+		(at 1.04 0.7)
+		(size 0.3 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "d8229892-c055-4f8f-b09e-dad098911046")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "fb54fb86-d871-411d-a5b7-febf2e390967")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0.72 -0.59) (xy 0.72 0.59) (xy -0.72 0.59) (xy -0.72 -0.59)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Hirose_BM29B0.6-2DS_2-0.35V_2x01S_2X01P_P0.35_Vertical.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

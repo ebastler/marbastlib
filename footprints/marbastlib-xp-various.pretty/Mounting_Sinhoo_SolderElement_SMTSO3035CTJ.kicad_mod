@@ -1,0 +1,214 @@
+(footprint "Mounting_Sinhoo_SolderElement_SMTSO3035CTJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "013b413a-ebec-45d4-bb7c-a0647242df2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mounting_Sinhoo_SolderElement_SMTSO3035CTJ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d20bfca-c411-40b3-ba1b-423629e501ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce4e45ea-25f7-497c-9a80-c82a86d4fbb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7dbb03-0ab2-47bd-a44e-6ffba27c6ad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(arc
+				(start -2.95 0.399999)
+				(mid -2.105054 2.105053)
+				(end -0.4 2.95)
+			)
+			(arc
+				(start -0.4 2.25)
+				(mid -1.615936 1.615936)
+				(end -2.25 0.4)
+			)
+			(xy -2.95 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1e6008e8-b446-43eb-a8b0-d5f44f2ca7fb")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -0.399999 -2.95)
+				(mid -2.105053 -2.105054)
+				(end -2.95 -0.4)
+			)
+			(arc
+				(start -2.25 -0.4)
+				(mid -1.615936 -1.615936)
+				(end -0.4 -2.25)
+			)
+			(xy -0.4 -2.95)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "dbed534a-1078-48c6-9b83-5e6a8732a0aa")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 0.399999 2.95)
+				(mid 2.105053 2.105054)
+				(end 2.95 0.4)
+			)
+			(arc
+				(start 2.25 0.4)
+				(mid 1.615936 1.615936)
+				(end 0.4 2.25)
+			)
+			(xy 0.4 2.95)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "b5efa839-54de-414c-af84-dec1599de124")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 2.95 -0.399999)
+				(mid 2.105054 -2.105053)
+				(end 0.4 -2.95)
+			)
+			(arc
+				(start 0.4 -2.25)
+				(mid 1.615936 -1.615936)
+				(end 2.25 -0.4)
+			)
+			(xy 2.95 -0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "9a0d7184-a655-4c47-919f-53f66e04fe2f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "986547ee-925b-4b16-b00c-1a7a70268644")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.78 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0cfe7c29-2e8e-4e07-a440-e503e4a3e0fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "865aeda9-4bba-4cd9-a2d4-c14412a70530")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.22)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c72a548c-4f73-4056-9466-e38da2111d56")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 4.7 4.7)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 4.7 4.7)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom.pretty/Mounting_Sinhoo_SolderElement_SMTSO3035CTJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,211 @@
+(footprint "Speaker_SELTECH_CR1511L025YN8WP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Speaker, 800mW, 0-20kHz, 15x11x2.5mm")
+	(tags "speaker CR1511")
+	(property "Reference" "REF**"
+		(at 0 -8.6 180)
+		(layer "F.SilkS")
+		(uuid "91211fa5-e383-41fa-8461-2354143da22b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Speaker_SELTECH_CR1511L025YN8WP"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14b9e2b4-561b-4377-aee9-aae645ec20d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://seltech-international.com/product/cr1511l025yn8wp/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e378ab3a-ae9a-4f2c-bfe1-1b658f094e74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3bbf949-39fd-4d53-b7f5-60c1f39d95b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.575 -7.575)
+		(end -5.575 7.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83ad3f64-6470-4caf-b4d4-c351a67c92a9")
+	)
+	(fp_line
+		(start -5.575 7.575)
+		(end 2.2 7.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bcbcc89-3e39-40b6-99e2-25ec1bed72bb")
+	)
+	(fp_line
+		(start 2.2 -7.575)
+		(end -5.575 -7.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88f64886-8ca0-4af6-a5d0-1d18f04a2958")
+	)
+	(fp_line
+		(start 5.575 -5)
+		(end 5.575 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ccffe1d-5623-41bf-adb3-eecb95624f73")
+	)
+	(fp_rect
+		(start -5.8 -8)
+		(end 6.2 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4253138b-9109-4fc9-bbc5-b7be31671439")
+	)
+	(fp_line
+		(start 4.6 5.7)
+		(end 4.6 4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab372c59-937e-4c1e-b29f-37d419e5c4c5")
+	)
+	(fp_line
+		(start 5.1 5.2)
+		(end 4.1 5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4a7fdc5-c107-409f-bc96-7a7afec45459")
+	)
+	(fp_rect
+		(start -5.5 -7.5)
+		(end 5.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19ccaeed-9cd4-4b02-9392-b94c65aa3f96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "64455e90-2496-4b1d-b432-2fd65c4ce4ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 4.6 6.9 270)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "055a644c-eded-49d5-8ae1-2ae82cd246b2")
+	)
+	(pad "2" smd roundrect
+		(at 4.6 -6.9 270)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "da3df2d6-e47e-4c84-9a1e-eb8243054e04")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "d6dfc68b-2109-401f-b3c7-44f3d21652d1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3 -4.98) (xy -2.6 -5.38) (xy -2.6 -5.98) (xy 2.6 -5.98) (xy 2.6 -5.38) (xy 3 -4.98) (xy 3.78 -4.98)
+				(xy 4.18 -5.68) (xy 4.98 -5.68) (xy 4.98 5.68) (xy 4.18 5.68) (xy 3.78 4.98) (xy 3 4.98) (xy 2.6 5.38)
+				(xy 2.6 5.98) (xy -2.6 5.98) (xy -2.6 5.38) (xy -3 4.98) (xy -3.78 4.98) (xy -4.18 5.68) (xy -4.98 5.68)
+				(xy -4.98 -5.68) (xy -4.18 -5.68) (xy -3.78 -4.98)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Speaker_SELTECH_CR1511L025YN8WP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

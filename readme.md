@@ -1,7 +1,7 @@
 # marbastlib
 A library collecting MX and Choc style footprints, as well as various other parts used to design custom keyboards. It is maintained by [ebastler](https://github.com/ebastler/) and [Marble](https://github.com/marbelymarble). Huge thanks to all of our users who test new footprints and notify us about bugs or issues and of course to our [awesome contributors](https://github.com/ebastler/marbastlib/graphs/contributors) who commit components of their own!
 
-The current latest release is made in/for KiCad 9.0 stable version. Older releases are still offered for KiCad 8.0 and 7.0 stable versions by the PCM but may lack components and/or bugfixes as no features or fixes are being backported. Older KiCad versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCad 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCad-keyboard-parts.pretty) for KiCad 5.x.
+The current latest release is made in/for KiCad 10.0 stable version. Older releases are still offered for KiCad 9.0, 8.0 and 7.0 stable versions by the PCM but may lack components and/or bugfixes as no features or fixes are being backported. Older KiCad versions are no longer supported by the main branch, please refer to one of the v6 branches for KiCad 6.x, and my (significantly smaller) [legacy lib](https://github.com/ebastler/KiCad-keyboard-parts.pretty) for KiCad 5.x.
 
 We try to offer 3D models for as many footprints in this library as possible, creating our own models where none exist. All components for which we have models available have them linked into the footprint - the PCM version will automatically download everything in the right file paths.
 
@@ -58,26 +58,38 @@ From this point on you will have "ebastler KiCad repository" in your drop-down s
 * DW01A - a cheap and easily available 1S battery protection chip
 * FS8205 - a dual MOSFET used in the DW01A ref implementation
 * FE1.1 - a 4 port USB 2.0 High-Speed (480 Mbit/s) hub with multiple transaction translator
-* FUSB303B - a standalone USB Type-C dual role port controller with I2C and GPIO control
+* FUSB303B - Standalone USB Type-C dual role port controller with I2C and GPIO control
+* FUSB301A - Autonomous USB Type-C Controller with Configurable I2C Address
 * IS31FL3741A - a 39x9 i2c LED multiplex driver
 * AW20216SQNR - a 18x12 SPI LED multiplex driver
+* AW20108QNR - a 9x12 SPI LED multiplex driver
+* AW88082QNR - 3.1 W Digital Input mono Digital Smart K Audio Amplifier with I2C control interface
 * joystick_analog - symbol for a analog, dual pot thumbstick, comes pre-assigned with a PSP-1000 thumbstick footprint
 * LED_6028R - symbol with preassigned footprint for reverse mount [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) RGB LEDs
+* BQ25628 - I²C-controlled, 18-V max input 2-A single-cell battery charger with boost mode and ADC
+* BQ27427 - Single-cell battery fuel gauge with pre-programmed chemistry and integrated sense resistor
+* IQS318xxxQFR - Standalone and I2C sensing device for single-channel proximity or touch-sensing requirements
 * LED_MHT151RGBCT - symbol with preassigned footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
+* MA782 - Ultra-Small, Low-Power Angle Sensor with Integrated Wake-Up Angle Detection
 * MAX17048 - a small shunt-less fuel gauge by Maxim Integrated
 * MAX77751 - a 1S LiIon battery management chip
 * MAX77757 - a 1S LiIon battery management chip
+* MCP1711T-xxI-5X - 150 mA Ultra-Low Quiescent Current, Capacitorless LDO Regulator
 * MP2722 - a 1S LiIon battery management chip
 * MP3431 - Synchronous boost converter, 2.7 to 13Vin, 16 Vout, 30-40W
 * nRF52840_holyiot_18010 - a symbol for the holyiot 18010 nRF52840 BLE module
 * nRF52840_moko_mk08 - a symbol for the Moko MK08 nRF52840 BLE module
 * nRF52840_E73-2G4M08S1C - a symbol for the EBYTE E73-2G4M08S1C nRF52840 BLE module
+* OPT3004DNPR - Digital ambient light sensor (ALS) with increased angular IR rejection
 * PI3USB102EZLEX - a high-speed diffpair 1x2 MUX
 * SK6812MINI-E - symbol with preassigned footprint for reverse mount addressable SK6812MINI-E RGB LEDs
 * SRV05-4 - symbol with attached footprint of the popular SRV05 - difference to default: pad spacing is large enough to allow 2 traces between them
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
+* TAS2110 - 6.1W mono digital input Class-D speaker amp with integrated 11V Class-H boost
 * TC2030_AVR - symbol for AVR ISP programming connector with pre-assigned TC2030 footprint
 * TC2030_JTAG - symbol for JTAG programming connector with pre-assigned TC2030 footprint
+* TCA9543A - Low Voltage 2-Channel I2C Bus Switch With Interrupt Logic And Reset
+* TPS25961 - 2.7-V to 19-V 100-mΩ eFuse with overvoltage, overcurrent and short-circuit protection
 * TP4056 - a cheap and easily available 1S battery charging chip
 * TXB0101 - a bidirectional levelshifter
 * WS2812_2020 - symbol with preassigned footprint for WS2812B-2020 and WS2812C-2020
@@ -105,6 +117,8 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 * SW_choc_v1_HS_CPG135001S30 - Kailh CPG135001S30 hotswap-footprints for Kailh Choc v1 switches
 * LED_choc_6028R(-ROT) - add-on footprint for Kailh Choc with [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and addressable SK6812MINI-E RGB LEDs
 * LED_choc_1206R(-ROT) - add-on footprint for Kailh Choc with [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
+* SW_Kailh_ULP_CPG1316S01D02 - Footprint for Kailh Ultra Low Profile keyboard switch
+* SW_Kailh_ULP_CPG1316M - Footprint for Kailh Ultra Low Profile half width switch
 
 ### marbastlib-xp-choc
 * LED_choc_WS2812_2020(-ROT) - experimental add-on footprint for Kailh Choc with reverse mounted WS2812_2020 - hand soldering only, use with caution
@@ -130,6 +144,7 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 All switch and stab footprints in this lib include plate cuts on User.Eco2, as well as placement hints for MX switch spacing (User.Drawings). LED and Stab footprints are not standalone, but intended to be combined with a switch footprint.
 * SW_MX - solder-footprints for Cherry MX switches
 * SW_MX_HS_CPG151101S11 - Kailh CPG151101S11 hotswap-footprints for Cherry MX switches
+* SW_MX_HS_KS-2P02B01-01 - Gateron KS-2P02B01-01 hotswap-footprints for Cherry MX switches
 * LED_MX_3mm(-ROT) - add-on footprint for Cherry MX switches with 3mm single color LEDs
 * LED_MX_6028R(-ROT) - add-on footprint for Cherry MX switches with [6028](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and addressable SK6812MINI-E RGB LEDs
 * STAB_MX - footprint for Cherry MX PCB-mount stabilizers
@@ -139,7 +154,6 @@ All switch and stab footprints in this lib include plate cuts on User.Eco2, as w
 ### marbastlib-xp-mx
 * LED_MX_WS2812_2020-E(-ROT) - experimental add-on footprint for Cherry MX switches with reverse mounted WS2812_2020 - hand soldering only, use with caution
 * PLATE_MX - experimental footprint intended to be added to a Cherry MX switch so the switch footprint can be snapped off - allowing the PCB to double-function as a plate
-* SW_MX_HS_KS-2P02B01-01 - Gateron KS-2P02B01-01 hotswap-footprints for Cherry MX switches
 * SW_MX_Reversible_1u - reversible solder-footprints for Cherry MX switches
 * SW_MX_ULP_1u - solder-footprints for Cherry MX ultra low profile switches
 * SW_MX_ULP_1u_handsolder - experimental handsolder-footprints for Cherry MX ultra low profile switches
@@ -166,17 +180,23 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 
 
 ### marbastlib-various
+* 2450AT18D0100001E_L/R - Footprint for Johanson 2450AT18D0100001E 2.45 GHz RF Chip Antenna
 * Molex_Pico-EZmate_78171* - footprints for Molex Pico EZmate series with preassigned 3d models
 * Molex_Pico-EZmate_PLUS_212134* - footprints for Molex Pico EZmate PLUS series with preassigned 3d models
 * Molex_Pico-EZmate_HC_208294* - footprints for Molex Pico EZmate HC series with preassigned 3d models
 * CON_FH33J-4S-0.5SH - 4pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-10S-0.5SH - 10pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
 * CON_FH33J-12S-0.5SH - 12pin 0.5mm pitch FFC/FPC connector from Hirose (FH33 series)
+* CON_Hirose_BM29B0.6-2DS_2-0.35V_2x01S_2X01P_P0.35_Vertical - Footprint for Hirose BM29 series receptacle (2 signal + 2 power pins)
+* CON_Hirose_BM29B-2DP_2-0.35V_2x01S_2X01P_P0.35_Vertical - Footprint for Hirose BM29 series plug (2 signal + 2 power pins)
 * CON_HytePro M411P - footprint for a [HytePro M411P](https://www.hyte.pro/product/m411p.html) 4pin magnetic pogo pin connectors (male and female footprints available)
 * CON_JST_ACH_BM02B - 2pin low profile 1.25mm pitch connector, well suited for battery connections. Copy of the default KiCad lib's ACH footprint with pre-assigned 3d model
 * CON_TC2030_Outlined - footprint for a Tag-Connect TC2030 header
 * XUNPU_FPC-05F-**PH20_1x16-1MP_P0.5mm_Horizontal - footprint for a [XUNPU FPC-05F-16PH20](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU-FPC-05F-16PH20_C2856801.html) FPC connector (16/20/24 pin in library)
 * XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical - footprint for a [XUNPU_FPC-0.5AL-20PB](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_XUNPU_C3446050.html) vertical FPC connector (20 pin in library)
+* Diodes_UDFN1212-3_Type-C - Footprint for Diodes U-DFN1212-3 (Type C) package
+* LED_Everlight_15-13DR6GHBHC-A012T
+* LED_Kingbright_KPTD-2012SURCK_2x1.25mm
 * LED_6028R - footprint for [6028 RGB LEDs](https://www.alibaba.com/product-detail/high-brightness-reverse-mount-4-pin_60782094930.html) and adressable SK6812MINI-E reverse mount RGB LEDs
 * LED_1206R - footprint for [MHT151RGBCT](https://datasheet.lcsc.com/lcsc/2104121904_MEIHUA-MHT151RGBCT_C409782.pdf) LEDs
 * LED_WS2812_2020 - footprint for WS2812B-2020 and WS2812C-2020
@@ -185,17 +205,25 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * L_Cenker_CKST353220 - footprint for [Cenker CKST353220](https://www.lcsc.com/product-detail/Power-Inductors_CENKER-CKST353220-1uH-M_C3002565.html) high power inductors
 * PNT_RKJXU1210006 - Alps RKJXU1210006 slide-thumbstick (used in PSP-3000 models)
 * PDFN3.3x3.3-8L_2 - footprint for 3.3x3.3mm DFN8 dual power MOSFETs like [AP2317QD](https://datasheet.lcsc.com/lcsc/2204151015_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2317QD_C2995344.pdf)
-* QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
+* QFN-6_EP_2x2_Pitch0.65mm - footprint needed for OPT3004DNPR
 * QFN-13_3x4mm_P0.5mm - footprint for MP3431, a synchrnous boost converter
-* QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
+* QFN-14_2x2_Pitch0.4mm - footprint needed for MA782
+* QFN-22_MP2722_2.5x3.5mm_P0.4mm - footprint for MP2722, a 1S LiIon battery management chip
 * QFN-44_EP_5x5_Pitch0.4mm - footprint needed for AW20216SQNR
+* QFN-60_EP_7x7_Pitch0.4mm - footprint needed for IS31FL3741A
+* Texas_RYK0018A_WQFN-HR-18 - footprint needed for BQ25628
 * ROT_Alps_EC11E-Switch - Improved version of the original KiCad EC11E footprint with pre-assigned 3d model
 * ROT_SKYLOON_HS-Swicth - Footprint for a [Skyloon MX-footprint-compatible rotary encoder](https://skyloong.vip/products/abs-hot-swappable-knobs-madule) - can be combined with an MX hotswap footprint!
+* Speaker_SELTECH_CR1511L025YN8WP - Footprint for SELTECH CR1511L025YN8WP
+* SpringContact_SameSky_CPG-45-TH-TR - Footprint for SameSky CPG-45-TH-TR Pogo-pin contact
+* SpringContact_TE_2329497-2 - Footprint for TE Connectivity 2329497-2 EMI spring contact
 * SOT-23-6-routable - variation of the default SOT-23-6, with enough spacing for 2 traces between the pads and clearer pin 1 marking
 * SW_ESP3020 - footprint for ESP3020 SMD 2-way-switches
 * SW_MSK12C02-HB - footprint for MSK12C02-HB SMD 1-pole, 2-position switch
+* SW_Push_1P1T-NO_Horizontal_C&K_NANOT_240_BP - Footprint for C&K NANOT 240 BP THR board edge pushbutton
 * SW_SKHLLCA010 - footprint for Alps SKHLLCA010 THT pushbutton
 * SW_SPST_SKQG_WithStem - copy of the default KiCad lib's SKQG footprint, but with rounded pads and pre-assigned 3d model
+* SW_SPDT_Alps_SSAJ110100 Footprint for Alps SSAJ110100 1-pole 2-position switch
 * SW_T1A2QR - footprint for the Diptronics T1A2QR SMD pushbutton
 * SW_SSSS213100 - footprint for Alps SSSSS213100 THT 1-pole, 2-position switch
 * SW_SSSS223900 - footprint for Alps SSSS223900 THT 2-pole, 3-position switch
@@ -203,6 +231,9 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * SplitkbTentingPuck - footprint for a splitkb Tenting Puck
 * USB_C_Receptacle_HRO_TYPE-C-31-M-14 - footprint for a HRO Koreaparts M-14 mid-mount USB-C 2.0 receptacle
 * USB_C_Receptacle_HRO_TYPE-C-31-M-12 - footprint for a HRO Koreaparts M-12 USB-C 2.0 receptacle (copy of KiCad default footprint with preassigned 3d model and some minor changes to silkscreen)
+* USB_C_Receptacle_HRO_TYPE-C-31-M-23 - footprint for a HRO Koreaparts M-23 USB-C 2.0 receptacle
+* USB_C_Receptacle_GCT_USB4505-03-0-A - footprint for a GCT USB4505-03-0-A USB-C 2.0 receptacle
+* USB_C_Receptacle_GCT_USB4510-03-1-A - footprint for a GCT USB4510-03-1-A USB-C 2.0 receptacle
 * mousebites - various sizes of mousebites
 * mousebites_5p5mm_easysnap - special mousebites designed for easy tool-less depanelizing
 * nRF52840_holyiot_18010 - a footprint for the holyiot 18010 nRF52840 BLE module
@@ -219,15 +250,16 @@ Since all stabs are plate-mount, only switch footprints are included. No dedicat
 * LED_WS2812_2020_rearmount - experimental footprint for reverse mounted WS2812_2020 - hand soldering only, use with caution
 * LED_WS2812_4020 - footprint for WS2812B-4020 side-firing LED
 * MAX77751 - a 1S LiIon battery management chip
+* Mounting_Sinhoo_SolderElement_SMTSO3035CTJ - SMT assembly threaded insert
 * HC-PBB40C-10DP-0.4V-02 - Mezzanine-style 10 pin board-to-board connector. Various mating heights available. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DP-0-4V-02_C19089226.html)
 * HC-PBB40C-10DS-0.4V-2.0-02 - Mezzanine-style 10 pin board-to-board connector. 2mm mating height. [Datasheet](https://www.lcsc.com/product-detail/Board-to-Board-and-Backplane-Connector_HCTL-HC-PBB40C-10DS-0-4V-2-0-02_C19089252.html)
 * PDFN3.3x3.3_EP - footprint for 3.3x3.3mm DFN8 power MOSFETs like [WSD4070DN](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2008211234_Winsok-Semicon-WSD4070DN_C719095.pdf)
 * PNT_psp1000 - footprint for a PSP-1000 thumbstick
 * STM32WB5MMG - a small form factor package including STM32WB chip and antenna
+* Texas_TAS2110_VQFN-HR-32 - footprint needed for TAS2110
 * nRF52840_holyiot_18010_HS - a footprint for the holyiot 18010 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
 * nRF52840_holyiot_18010_HS_all - a footprint for the holyiot 18010 nRF52840 BLE module intended to allow hand soldering from the rear (milled slot on bottom of module to access bottom pads)
 * nRF52840_moko_mk08_HS - a footprint for the Moko MK08 nRF52840 BLE module designed to allow hand soldering from the rear (THT pads for bottom pads)
-* USB_C_Receptacle_HRO_TYPE-C-31-M-23 - footprint for a HRO Koreaparts M-23 USB-C 2.0 receptacle
 
 
 ### marbastlib-xp-plate-mx
@@ -251,6 +283,20 @@ These footprints use some (rather cryptic) naming schemes to differentiate vario
 ## 3D Models
 Many of these were provided by someone else. I do not hold any rights for those and owe the original designers big thanks. These models are NOT covered by the license applied to the rest of the repo. If no source is provided, I designed the model myself, using datasheet specs as far as possible. These models are covered by the repository license. If your file is in this repo and you would like it gone, please contact me. I included them to make it easier to use the models directly from the library, but will respect the original designer's/copyright holder's wishes.
 
+* ANT_Johanson_2450AT18D0100001E
+* Crystal_SMD_2012-2Pin_2.0x1.2mm
+* Crystal_SMD_2016-4Pin_2.0x1.6mm
+* LED_Everlight_15-13DR6GHBHC-A012T
+* Mounting_Sinhoo_SolderElement_SMTSO3035CTJ
+* Mounting_Wuerth_WA-SMSI-M2.5_H1mm_9774010151R
+* Mounting_Wuerth_WA-SMSI-M2_H3P5mm_9774035243R
+* SameSky CPG-45-TH-TR 
+* QFN-14_2x2_Pitch0.4mm
+* Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm
+* Texas_RYK0018A_WQFN-HR-18
+* Texas_X2QFN-12_1.6x1.6mm
+* Diodes_UDFN1212-3_Type-C
+* NANOT240BP
 * SK6812Mini-E
 * WS2812B-2020
 * MHT151RGBCT 1206 rearmount LED
@@ -280,6 +326,8 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * HRO TYPE-C-31-M-12 ([source](https://grabcad.com/library/type-c-31-m-12-1))
 * HRO TYPE-C-31-M-14 ([source](https://grabcad.com/library/hro-usb-type-c-31-m-14-1))
 * HRO TYPE-C-31-M-23 (source: easyEDA component library)
+* GCT USB4505-03-0-A (GCT)
+* GCT GCT_USB4510-03-1-A (GCT)
 * XUNPU FPC-05F-16PH20 (source: easyEDA component library)
 * XUNPU FPC-05F-20PH20 (source: easyEDA component library)
 * XUNPU FPC-05F-24PH20 (source: easyEDA component library)
@@ -291,12 +339,17 @@ Many of these were provided by someone else. I do not hold any rights for those 
 * Alps SSSS213100 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/ssss213100_3dcad.html))
 * Alps SSSS223900 ([source](https://tech.alpsalpine.com/prod/e/html/switch/slide/ssss2/SSSS223900_3dcad.html))
 * Alps RKJXU1210006 Thumbstick ([source](https://tech.alpsalpine.com/e/products/detail/RKJXU1210006/))
+* Alps SSAJ110100  ([source](https://tech.alpsalpine.com/e/products/detail/SSAJ110100/))
 * PSP-1000 Thumbstick (thanks [thanks, Hendrik!](https://github.com/HendrikRoth))
 * Kailh CPG151101S11 hotswap socket (MX style) ([source](https://grabcad.com/library/kailh-pg1511-hotswap-socket-1))
 * Kailh CPG135001S30 hotswap socket (Choc style) ([source](https://grabcad.com/library/kailh-1350-socket-2))
+* Kailh CPG1316S-2 (ULP) (Thank you very much, Kailh!)
+* Kailh CPG1316M (ULP) (Thank you very much, Kailh!)
 * Molex 78171 series ([source](https://www.molex.com/en-us/part-list/78171))
 * Molex 212134 series ([source](https://www.molex.com/en-us/part-list/212134))
 * Molex 208294 series ([source](https://www.molex.com/en-us/part-list/208294))
 * Gateron KS-2P02B01-01 hotswap socket (MX style) (Thank you very much, Gateron!)
 * Gateron KS-2P02B01-02 hotswap socket (KS33 style) (Thank you very much, Gateron!)
 * Cherry MX6C-K3NB Switch (ULP Keyswitch) ([source](https://github.com/pashutk/Cherry_MX_ULP/blob/main/Cherry_ULP.pretty/Cherry_MX_ULP.step))
+* SELTECH CR1511L025YN8WP (Seltech)
+* TE 2329497-2 (TE)

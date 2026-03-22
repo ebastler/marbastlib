@@ -1,0 +1,309 @@
+(footprint "2450AT18D0100001E_R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.45 GHz RF Chip Antenna")
+	(property "Reference" "REF**"
+		(at 0 1.8 0)
+		(layer "F.SilkS")
+		(uuid "25b14496-829a-4530-ab74-708897a57eda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2450AT18D0100001E_R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0c6750d-47a5-4f30-8ff4-d7aba2d918d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.johansontechnology.com/docs/3791/Antenna-2450AT18D0100001E-Rev5.0.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fa73e57-305b-4e37-a8b0-27367b3c7331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.45 GHz RF Chip Antenna"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56d9b00f-acfd-4c67-86db-f07b850bab46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 0.15)
+		(end -1.75 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "675b987e-97fd-47de-881b-dfdae1dacd1f")
+	)
+	(fp_line
+		(start -0.8 0.95)
+		(end 0.8 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49e25548-a3b8-4be2-ada8-a2dbb18751e2")
+	)
+	(fp_line
+		(start 1.75 -0.15)
+		(end 1.95 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c3e76c7-97e0-4ce8-baf5-e690f176f0e9")
+	)
+	(fp_line
+		(start 1.75 0.15)
+		(end 1.75 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1087cee6-4172-41f4-a902-f28eec98e84a")
+	)
+	(fp_rect
+		(start 1 0.2)
+		(end 0.4 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "49dacd59-dd4c-492d-a801-0f4a9c71ea83")
+	)
+	(fp_line
+		(start -2 -0.95)
+		(end -2 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "455fbf87-4fe0-4e23-8b82-00d1827a2706")
+	)
+	(fp_line
+		(start -2 0.95)
+		(end 2 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "26237112-842f-422d-a9a1-8a55e902dcfb")
+	)
+	(fp_line
+		(start -2 5.05)
+		(end 2 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "96e362bc-1ef1-42c7-80b9-fd361e53fdbe")
+	)
+	(fp_line
+		(start 2 5.05)
+		(end 2 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f9bd7586-9c6b-443f-9eac-51d312c78d45")
+	)
+	(fp_rect
+		(start -2.1 -1)
+		(end 2.1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "075e0779-a119-4934-83a4-78c234e6df97")
+	)
+	(fp_line
+		(start 1.6 -0.2)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9be9aa44-cffe-4255-bff4-2367bdecf4bb")
+	)
+	(fp_rect
+		(start 1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9a594be4-4137-4f75-bdf9-70f7bfcb9850")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de34c280-ed85-403a-9617-ae60c1f0301f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.5 0.65 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "30be149f-3eb4-462f-803b-6909583c5ffd")
+	)
+	(pad "2" smd roundrect
+		(at -1.5 -0.65 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "102ef64a-b7cf-4ba8-aa92-5cff949f46d2")
+	)
+	(pad "2" smd roundrect
+		(at -1.5 0.65 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "892d825a-44b4-4eff-a20a-493ade12bfd3")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 -0.65 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "1875f8c6-79e2-411d-b5d9-70534ae05ecf")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "f99abf5c-16e1-4657-b64e-5d7b62483c60")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -2 0.95) (xy 2 0.95) (xy 2 5.05) (xy -2 5.05)
+			)
+		)
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "7cdd266b-6f0e-4cc5-a54f-77ee29015e09")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 2 0.35) (xy 2 -0.35) (xy 1 -0.35) (xy 1 -0.95) (xy -1 -0.95) (xy -1 -0.35) (xy -2 -0.35) (xy -2 0.35)
+				(xy -1 0.35) (xy -1 0.95) (xy 1 0.95) (xy 1 0.35)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ANT_Johanson_2450AT18D0100001E v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

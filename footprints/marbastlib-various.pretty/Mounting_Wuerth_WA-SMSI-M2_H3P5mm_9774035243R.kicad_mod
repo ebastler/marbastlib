@@ -1,0 +1,213 @@
+(footprint "Mounting_Wuerth_WA-SMSI-M2_H3P5mm_9774035243R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ecdde0d5-3525-40ba-a496-8f1a9101272c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mounting_Wuerth_WA-SMSI-M2_H3P5mm_9774035243R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0667cb6e-fad9-4aa1-a3cb-53554233a6cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73ad7cbc-bbf1-4dbe-be7d-ce34a04a5b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc3af53d-8bb4-49bd-8700-fd4625f145f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(arc
+				(start -2.55 0.3)
+				(mid -1.815558 1.815558)
+				(end -0.3 2.55)
+			)
+			(arc
+				(start -0.3 1.6)
+				(mid -1.151086 1.151086)
+				(end -1.6 0.3)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d0875600-0e0e-4afe-822b-87d9101b9f14")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -0.3 -2.55)
+				(mid -1.815558 -1.815558)
+				(end -2.55 -0.3)
+			)
+			(arc
+				(start -1.6 -0.3)
+				(mid -1.151086 -1.151086)
+				(end -0.3 -1.6)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "ce5c46d8-4cd8-45f0-b1a1-742438bdaf01")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 0.3 2.55)
+				(mid 1.815558 1.815558)
+				(end 2.55 0.3)
+			)
+			(arc
+				(start 1.6 0.3)
+				(mid 1.151086 1.151086)
+				(end 0.3 1.6)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "ed10a8fa-1768-48cf-b80f-7ffb1ede9980")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 2.55 -0.3)
+				(mid 1.815558 -1.815558)
+				(end 0.3 -2.55)
+			)
+			(arc
+				(start 0.3 -1.6)
+				(mid 1.151086 -1.151086)
+				(end 1.6 -0.3)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "7dc839fc-51cd-4201-b331-a9ca00650d42")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c5faac92-a1e4-4ac8-9149-0bcd5445e3bd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6b97befc-3a8f-47c6-b582-c86ec4b2e165")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35898aae-b213-419c-b9cc-cc6b6459aa07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.3 5.3)
+		(drill 3)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_width 0.5)
+		(thermal_gap 0.2)
+		(uuid "90b4cd6c-7f0a-4d43-a265-bbcf34345239")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 3.5 3.5)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 3.5 3.5)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/Mounting_Wuerth_WA-SMSI-M2_H3P5mm_9774035243R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
